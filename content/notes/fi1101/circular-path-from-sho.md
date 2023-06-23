@@ -1,5 +1,5 @@
 ---
-title: "circular-path-from-sho"
+title: "circular path from sho"
 date: 2023-06-24T06:00:00+07:00
 authors: ['Sparisoma Viridi']
 tags: ['fi1101']
