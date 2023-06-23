@@ -1,2 +1,2 @@
 # about
-6unpnp | dudung
+6unpnp &equiv; dudung
