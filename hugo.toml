@@ -226,3 +226,8 @@ url = "about/"
 name = "Notes"
 weight = 2
 url = "notes/"
+
+[[languages.en.menu.main]]
+name = "Tags"
+weight = 3
+url = "tags/"
