@@ -7,7 +7,7 @@ draft: false
 math: false
 url: "0000"
 ---
-Terdapat bacaan empat paragraf sebagai berikut ini yang perlu diperbaiki.
+Terdapat bacaan empat paragraf yang perlu dibaca dengan seksama untuk kemudian diperbaiki.
 
 
 # paragraf 1
