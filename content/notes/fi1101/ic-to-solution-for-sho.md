@@ -17,7 +17,7 @@ $$\tag{1}
 \frac{d^2 x}{dt^2} + \omega^2 x = 0
 $$
 
-akan memiliki solusi untuk posisinya dalam bentuk
+akan memiliki solusi untuk posisinya $x$ dalam bentuk
 
 $$\tag{2}
 x = A \sin (\omega t + \varphi_0),
