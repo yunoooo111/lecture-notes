@@ -36,7 +36,7 @@ di mana $x$ dan $y$ masing-masing menyatakan posisi pada arah $x$ dan $y$.
 Persamaan (1) dan (2) dapat pula dipandang sebagai fungsi-fungsi parametrik untuk sebuah lingkaran ([Glen, 2023](https://www.statisticshowto.com/parametric-function/)), karena keduanya dinyatakan dalam sebuah parameter, yang dalam hal ini adalah $t$.
 
 
-## equation of a circle
+## equations of a circle
 Terdapat berbagai bentuk persamaan yang menyatakan suatu lingkaran ([Pierce, 2022](https://www.mathsisfun.com/algebra/circle-equations.html)), yaitu bentuk standar
 
 $$\tag{3}
@@ -60,3 +60,44 @@ $$\tag{5}
 $$
 
 yang merupakan salah satu dari identitas Pythagorean ([Stapel, 2023](https://www.purplemath.com/modules/idents.htm)).
+
+
+## parametric equations to an equation of a circle
+Persamaan (1) dan (2) dapat dituliskan kembali menjadi
+
+$$\tag{6}
+\left( \frac{x - x_c}{A_x} \right) = \sin (\omega_x t + \phi_x)
+$$
+
+dan
+
+$$\tag{7}
+\left( \frac{y - y_c}{A_y} \right) = \sin (\omega_y t + \phi_y).
+$$
+
+Dengan memilih $A_x = A_y = R$, $\omega_x = \omega_y = \omega$, $\phi_x = \frac12\pi$, dan $\phi_y = 0$, maka kedua Persamaan (6) dan (7) akan menjadi
+
+$$\tag{8}
+\left( \frac{x - x_c}{R} \right) = \cos \omega t
+$$
+
+dan
+
+$$\tag{9}
+\left( \frac{y - y_c}{R} \right) = \sin \omega t.
+$$
+
+Selanjutnya dengan menggunakan Persamaan (5), penjumlahan kuadrat dari masing-masing Persamaan (8) dan (9) akan memberikan
+
+$$\tag{10}
+\left( \frac{x - x_c}{R} \right)^2 + \left( \frac{y - y_c}{R} \right)^2 = 1, 
+$$
+
+yang apabila kedua ruas dikalikan dengan $R^2$ akan menghasilkan
+
+
+$$
+(x - x_c)^2 + (y - y_c) = R^2,
+$$
+
+yang merupakan bentuk umum dari persamaan lingkaran pada Persamaan (3).
