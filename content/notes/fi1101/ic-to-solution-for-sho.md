@@ -1,5 +1,5 @@
 ---
-title: "initial condition for sho"
+title: "initial condition to solution for sho"
 date: 2022-12-04T17:51:00+07:00
 authors: ['Sparisoma Viridi']
 tags: ['fi1101']
@@ -10,7 +10,7 @@ url: "0002"
 Suatu benda yang bergerak dalam satu-dimensi dengan gerak harmonis sederhana (GHS), atau simple harmonic motion (SHM), memiliki solusi yang telah umum dikenal. Penerapan syarat awal yang berbeda akan memberikan penjelasan mengenai koefisien-koefisien pada solusi umum tersebut.
 
 
-# equation of motion and solution
+# equation of motion and solutions
 Sebuah benda dengan persamaan gerak
 
 $$\tag{1}
