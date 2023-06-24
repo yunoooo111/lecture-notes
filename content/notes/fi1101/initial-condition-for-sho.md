@@ -26,7 +26,7 @@ $$
 dengan simpangan $x$, amplitudo simpangan $A$, frekuensi angular $\omega$, dan fasa awal $\varphi_0$. Selanjutnya, solusi untuk kecepatan $v$ benda saat $t$ adalah
 
 $$\tag{3}
-v = \omega A \sin (\omega t + \varphi_0),
+v = \omega A \cos (\omega t + \varphi_0),
 $$
 
 dengan $v_{\max} = \omega A$ adalah amplitudo kecepatan atau laju maksimum benda. Dengan cara yang sama dapat ditulskan bahwa $x_{\max} = A$ adalah simpangan maksimum.
