@@ -1,6 +1,6 @@
 ---
 title: "circular path from sho"
-date: 2023-06-24T12:27:00+07:00
+date: 2023-06-24T12:38:00+07:00
 authors: ['Sparisoma Viridi']
 tags: ['fi1101']
 draft: false
@@ -50,3 +50,13 @@ x^2 + y^2 + Ax + Bx + C = 0.
 $$
 
 Persamaan (3) dapat diubah ke Persamaan (4) dan sebaliknya.
+
+
+## pythagorean identity
+Dari identitas-indentitas trigonometri dapat dituliskan
+
+$$\tag{5}
+\sin^2 z + \cos^2 z = 1,
+$$
+
+yang merupakan salah satu dari identitas Pythagorean ([Stapel, 2023](https://www.purplemath.com/modules/idents.htm)).
