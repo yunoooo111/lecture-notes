@@ -1,6 +1,6 @@
 ---
 title: "circular path from sho"
-date: 2023-06-24T12:38:00+07:00
+date: 2023-06-24T20:45:00+07:00
 authors: ['Sparisoma Viridi']
 tags: ['fi1101']
 draft: false
@@ -101,3 +101,66 @@ $$
 $$
 
 yang merupakan bentuk umum dari persamaan lingkaran pada Persamaan (3).
+
+
+## plot of trajectory
+Untuk menggambarkan lintasan melingkar menggunakan Python perlu terlebih dahulu didefinisikan besaran-besaran angular yang melibatkan nilai $\pi$. Untuk itu diperlukan modul bulit-in `math`, dengan penggunaannya adalah sebagai berikut ini.
+
+```python
+import math
+
+T = 1
+Nt = 100
+dt = T / Nt
+omega = 2 * math.pi / T
+
+xc = 1
+yc = 3
+R = 2
+Ax = R
+Ay = R
+omegax = omega
+omegay = omega
+
+phix = 0.5 * math.pi
+phiy = 0
+
+```
+
+Selanjutnya adalah membuat titik-titik data untuk digambarkan. Salah satu caranya adalah menggunakan fitur list comprehension dalam Python seperti di bawah ini.
+
+```python
+t = [i * dt for i in range(Nt+1)]
+x = [Ax * math.sin(omegax * i + phix) + xc for i in t]
+y = [Ay * math.sin(omegax * i + phiy) + yc for i in t]
+```
+
+Data yang dibuat di atas kemudian digambarkan dengan bantuan fungsi `pyplot` dalam paket `matplotlib` yang digunakan seperti disajikan di bawah ini.
+
+```python
+import matplotlib.pyplot as plt
+
+plt.plot(x, y, 'r-')
+plt.grid()
+plt.xlabel('x')
+plt.ylabel('y')
+plt.show()
+```
+
+Eksekusi ketiga bagian kode yang diberikan di atas akan menghasilkan lintasan melingkar seperti pada Gambar 1.
+
+{{< svg "img/parametrics_circle.svg" >}}
+
+Gambar 1. Lingkaran dengan persamaan $(x-1)^2 + (y-3)^2 = 4$.
+
+Pusat lingkaran pada Gambar 1 adalah $(1,3)$ dengan jari-jari $R = 2$ sebagaimana diberikan dalam bagian pertama kode yang disertakan, yaitu `xc = 1`, `yc = 3`, dan `R = 2`.
+
+
+## questions
+1. Apa topik dalam kinematika yang membuat benda bergerak menempuh lintasan melingkar?
+2. Terkait dengan hukum II Newton, apa konsep gaya yang menyebabkan benda bergerak menempuh lintasan melingkar?
+3. Terkait dengan konsep gaya yang ditanyakan sebelumnya, gaya-gaya apa saja yang dapat membuat benda bergerak menenempuh lintasan melingkar?
+4. Pada sebuah benda yang bergerak di atas lantai mendatar kasar, gaya apa yang membuatnya selalu membelok sehingga bergerak menempuh lintasan melingkar?
+5. Apakah lintasan melingkar dapat digambarkan dengan lansung menggunakan Persamaan (3) atau (4)? Bila ya, tunjukkan caranya.
+6. Dalam implementasinya, mana yang lebih mudah digunakan untuk menggambarkan lintasan melingkar, Persaman (1) dan (2) dengan parameter tertentu atau Persamaan (3)? Jelaskan alasannya.
+7. Apakah data `x` dan `y` dalam kode di atas dapat dihasilkan tanpa menggunakan fitur list comprehension dalam Python? Berikan contoh implementasinya.
