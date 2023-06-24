@@ -1,5 +1,5 @@
 ---
-title: "initial condition to solution for sho"
+title: "ic to solution for sho"
 date: 2022-12-04T17:51:00+07:00
 authors: ['Sparisoma Viridi']
 tags: ['fi1101']
