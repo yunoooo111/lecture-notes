@@ -31,4 +31,3 @@ flowchart LR
     h --> |No| su[/"📝 Suggest changes by clicking near the title"/]
     click r "/categories/featured" _blank
 {{< /mermaid >}}
-
