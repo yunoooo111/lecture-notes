@@ -32,24 +32,13 @@ $$
 dengan $v_{\max} = \omega A$ adalah amplitudo kecepatan atau laju maksimum benda. Dengan cara yang sama dapat ditulskan bahwa $x_{\max} = A$ adalah simpangan maksimum.
 
 
-# questions
-1. Tunjukkan bahwa Persamaan (2) merupakan solusi dari Persamaan (1) dengan melakukan substitusi Persamaan (2) ke Persamaan (1).
-2. Apakah nilai $\varphi_0$ pada Persamaan (2) mempengaruhi bentuk persamaan gerak benda pada Persamaan (1)?
-3. Dengan menggunakan hubungan antara besaran-besaran kinematika, tunjukkan bagaimana Persamaan (3) diperoleh dari Persamaan (2).
+# initial conditions
+Solusi persamaan gerak sistem GHS pada Persamaan (1) memerlukan dua syarat awal saat $t = t_0$, yaitu $x(t_0) = x_0$ dan $v(t_0) = v_0$, yang untuk memudahkan dipilih $t_0 = 0$.
 
-
-# .
-Solusi persamaan gerak sistem GHS berbentuk
-
-$$\tag{1}
-x = A \sin (\omega t + \varphi_0)
-$$
-
-memerlukan dua syarat awal saat $t = t_0$, yaitu $x(t_0) = x_0$ dan $v(t_0) = v_0$, yang untuk memudahkan dipilih $t_0 = 0$.
-
+## $x_0 \ne 0$, $v_0 = 0$
 Benda, massa yang terikat pegas atau bandul yang terikat tali, diberi simpangan awal $x_0$ dan dilepas tanpa kecepatan awal atau $v_0 = 0$ saat $t = 0$, maka dari Persamaan (1) dapat diperoleh
 
-$$\tag{2}
+$$\tag{4}
 \begin{array}{rcl}
 x  & = & A \sin (\omega t + \varphi_0) \newline
 x(0) & = & A \sin (\omega \cdot 0 + \varphi_0) \newline
@@ -59,7 +48,7 @@ $$
 
 dan dari turunan Persamaan (1) terhadap waktu $t$ diperoleh
 
-$$\tag{3}
+$$\tag{5}
 \begin{array}{rcl}
 v  & = & \omega A \cos (\omega t + \varphi_0) \newline
 v(0) & = & \omega A \cos (\omega \cdot 0 + \varphi_0) \newline
@@ -67,36 +56,28 @@ v_0 & = & \omega A \cos \varphi_0.
 \end{array}
 $$
 
-Dari dikarenakan $v_0 = 0$ maka dari Persamaan (3) diperoleh $\varphi_0 = (n + \tfrac12) \pi$ dengan $n = 0, 1, 2, ..$. Bila dipih $n = 0$, diperoleh $\varphi_0 = \tfrac12 \pi$, sehingga Persamaan (2) akan menjadi
+Dikarenakan $v_0 = 0$ maka dari Persamaan (5) diperoleh $\varphi_0 = (n + \tfrac12) \pi$ dengan $n = 0, 1, 2, ..$. Bila dipih $n = 0$, diperoleh $\varphi_0 = \tfrac12 \pi$, sehingga Persamaan (4) akan menjadi
 
-$$\tag{4}
+$$\tag{6}
 \begin{array}{rcl}
 x_0 & = & A \sin \tfrac12 \pi \newline
 & = & A,
 \end{array}
 $$
 
-yang memberikan nilai amplitudo $A$. Dengan hasil dari Persamaan (4), Persamaan (1) dapat dituliskan kembali menjadi
+yang memberikan nilai amplitudo $A$. Dengan hasil dari Persamaan (6), Persamaan (1) dapat dituliskan kembali menjadi
 
-$$\tag{5}
+$$\tag{7}
 x = x_0 \sin (\omega t + \tfrac12 \pi),
 $$
 
 yang merupakan solusi khusus dari sistem GHS dengan syarat awal $x(0) = x_0$ dan $v(0) = 0$.
 
 
-# .
-Solusi persamaan gerak sistem GHS berbentuk
-
-$$\tag{1}
-x = A \sin (\omega t + \varphi_0)
-$$
-
-memerlukan dua syarat awal saat $t = t_0$, yaitu $x(t_0) = x_0$ dan $v(t_0) = v_0$, yang untuk memudahkan dipilih $t_0 = 0$.
-
+## $x_0 = 0$, $v_0 \ne 0$
 Benda, massa yang terikat pegas atau bandul yang terikat tali, pada posisi kesetimbangannya atau $x_0 = 0$ diberi kecepatan awal $v_0$ saat $t = 0$, maka dari Persamaan (1) dapat diperoleh
 
-$$\tag{2}
+$$\tag{8}
 \begin{array}{rcl}
 x  & = & A \sin (\omega t + \varphi_0) \newline
 x(0) & = & A \sin (\omega \cdot 0 + \varphi_0) \newline
@@ -106,7 +87,7 @@ $$
 
 dan dari turunan Persamaan (1) terhadap waktu $t$ diperoleh
 
-$$\tag{3}
+$$\tag{9}
 \begin{array}{rcl}
 v  & = & \omega A \cos (\omega t + \varphi_0) \newline
 v(0) & = & \omega A \cos (\omega \cdot 0 + \varphi_0) \newline
@@ -114,35 +95,27 @@ v_0 & = & \omega A \cos \varphi_0.
 \end{array}
 $$
 
-Dari dikarenakan $x_0 = 0$ maka dari Persamaan (2) diperoleh $\varphi_0 = n \pi$ dengan $n = 0, 1, 2, ..$. Bila dipih $n = 0$, diperoleh $\varphi_0 = 0$, sehingga Persamaan (3) akan menjadi
+Selanjutnya, dikarenakan $x_0 = 0$ maka dari Persamaan (8) diperoleh $\varphi_0 = n \pi$ dengan $n = 0, 1, 2, ..$. Bila dipih $n = 0$, diperoleh $\varphi_0 = 0$, sehingga Persamaan (9) akan menjadi
 
-$$\tag{4}
+$$\tag{10}
 \begin{array}{rcl}
 v_0 & = & \omega A \cos 0 \newline
 & = & \omega A,
 \end{array}
 $$
 
-yang memberikan nilai amplitudo $A = v_0 / \omega $. Dengan hasil dari Persamaan (4), Persamaan (1) dapat dituliskan kembali menjadi
+yang memberikan nilai amplitudo $A = v_0 / \omega $. Dengan hasil dari Persamaan (10), Persamaan (1) dapat dituliskan kembali menjadi
 
-$$\tag{5}
+$$\tag{11}
 x = \frac{v_0}{\omega} \sin \omega t,
 $$
 
 yang merupakan solusi khusus dari sistem GHS dengan syarat awal $x(0) = 0$ dan $v(0) = v_0$.
 
-# .
-Solusi persamaan gerak sistem GHS berbentuk
-
-$$\tag{1}
-x = A \sin (\omega t + \varphi_0)
-$$
-
-memerlukan dua syarat awal saat $t = t_0$, yaitu $x(t_0) = x_0$ dan $v(t_0) = v_0$, yang untuk memudahkan dipilih $t_0 = 0$.
-
+## $x_0 \ne 0$, $v_0 \ne 0$
 Benda, massa yang terikat pegas atau bandul yang terikat tali, pada posisi tertentu $x_0 = 0$ diberi kecepatan awal $v_0$ saat t = $0$, maka dari Persamaan (1) dapat diperoleh
 
-$$\tag{2}
+$$\tag{12}
 \begin{array}{rcl}
 x  & = & A \sin (\omega t + \varphi_0) \newline
 x(0) & = & A \sin (\omega \cdot 0 + \varphi_0) \newline
@@ -152,7 +125,7 @@ $$
 
 dan dari turunan Persamaan (1) terhadap waktu $t$ diperoleh
 
-$$\tag{3}
+$$\tag{13}
 \begin{array}{rcl}
 v  & = & \omega A \cos (\omega t + \varphi_0) \newline
 v(0) & = & \omega A \cos (\omega \cdot 0 + \varphi_0) \newline
@@ -160,25 +133,25 @@ v_0 & = & \omega A \cos \varphi_0.
 \end{array}
 $$
 
-Terdapat dua persamaan, yaitu Persamaan (2) dan (3) dan dua parameter yang tidak diketahui, yaitu $A$ dan $\varphi_0$, yang seharusnya dapat diperoleh.
+Terdapat dua persamaan, yaitu Persamaan (12) dan (13) dan dua parameter yang tidak diketahui, yaitu $A$ dan $\varphi_0$, yang seharusnya dapat diperoleh.
 
-Persamaan (2) dibagi Persamaan (3) akan memberikan
+Persamaan (12) dibagi Persamaan (13) akan memberikan
 
-$$\tag{4}
+$$\tag{14}
 \tan \varphi_0 = \frac{x_0}{v_0/\omega} = \frac{\omega x_0}{v_0},
 $$
 
-$$\tag{5}
+$$\tag{15}
 \sin \varphi_0 = \frac{\omega x_0}{\sqrt{\omega^2 x_0^2 + v_0^2}},
 $$
 
-$$\tag{6}
+$$\tag{16}
 \cos \varphi_0 = \frac{v_0}{\sqrt{\omega^2 x_0^2 + v_0^2}}.
 $$
 
-Substitusi Persamaan (5) ke Persamaan (2) atau Persamaan (6) ke Persamaan (3) akan memberikan
+Substitusi Persamaan (15) ke Persamaan (12) atau Persamaan (16) ke Persamaan (13) akan memberikan
 
-$$\tag{7}
+$$\tag{17}
 \begin{array}{rcl}
 x_0  & = & \displaystyle A \ \frac{\omega x_0}{\sqrt{\omega^2 x_0^2 + v_0^2}} \newline
 &&\newline
@@ -187,60 +160,68 @@ A & = & \displaystyle \frac{\sqrt{\omega^2 x_0^2 + v_0^2}}{\omega} \newline
 \end{array}
 $$
 
-Substitusi Persamaan (5) dan (7) ke Persamaan (1) akan memberikan
+Substitusi Persamaan (15) dan (17) ke Persamaan (1) akan memberikan
 
-$$\tag{8}
+$$\tag{18}
 x = \left[ x_0^2 + \left( \frac{v_0}{\omega} \right)^2 \right]^{\frac12} \ \sin \left[ \omega t + \arcsin \left( \frac{\omega x_0}{\sqrt{\omega^2 x_0^2 + v_0^2}} \right) \right]
 $$
 
 yang merupakan solusi khusus dari sistem GHS dengan syarat awal $x(0) = x_0$ dan $v(0) = v_0$.
 
 
-# .
+# mechanical energy
 Energi kinetik sistem yang bergerak mengikuti gerak harmonik sederhana (GHS) diberikan oleh
 
-$$\tag{1}
+$$\tag{19}
 K = \tfrac12 m \omega^2 A^2 \cos^2 (\omega t + \varphi_0),
 $$
 
 yang untuk sistem pegas-benda (pegas berkonstanta $k$ dan benda bermassa $m$) akan menjadi
 
-$$\tag{2}
+$$\tag{20}
 K = \tfrac12 k A^2 \cos^2 (\omega t + \varphi_0),
 $$
 
 dengan $\omega = \sqrt{k/m}$. Energi potensial pegas adalah
 
-$$\tag{3}
+$$\tag{21}
 U = \tfrac12 k x^2 = \tfrac12 k A^2 \sin^2 (\omega t + \varphi_0),
 $$
 
 sehingga, dengan hubungan $E = K + U$, dapat diperoleh energi total
 
-$$\tag{4}
+$$\tag{22}
 E = \tfrac12 k A^2,
 $$
 
 yang merupakan energi mekanik sistem.
 
 
-# .
+# velocity as function of position
 Dengan energi mekanik sistem GHS
 
-$$\tag{1}
+$$\tag{23}
 E = K + U
 $$
 
 dan $E = \tfrac12 kA^2$, $K = \tfrac12 m v^2$, $U = \tfrac12 k x^2$ dapat dituliskan
 
-$$\tag{2}
+$$\tag{24}
 K = E - U = \tfrac12 k A^2 - \tfrac12 k x^2
 $$
 
 dan lebih lanjut dapat diperoleh
 
-$$\tag{3}
+$$\tag{25}
 v = \omega \sqrt{A^2 - x^2},
 $$
 
 yang memberikan $v = v(x)$, di mana $\omega = \sqrt{k/m}$.
+
+
+# questions
+1. Tunjukkan bahwa Persamaan (2) merupakan solusi dari Persamaan (1) dengan melakukan substitusi Persamaan (2) ke Persamaan (1).
+2. Apakah nilai $\varphi_0$ pada Persamaan (2) mempengaruhi bentuk persamaan gerak benda pada Persamaan (1)?
+3. Dengan menggunakan hubungan antara besaran-besaran kinematika, tunjukkan bagaimana Persamaan (3) diperoleh dari Persamaan (2).
+4. Bagaimanakah bentuk Persamaan (19)-(22) untuk sistem bandul matematis dengan simpangan kecil?
+5. Dengan menggunakan Persamaan (25) rumuskan posisi sebagai fungsi dari kecepatan $x = x(v)$, lalu berikan contoh pemanfaatannya.
