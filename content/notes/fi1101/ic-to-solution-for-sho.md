@@ -216,7 +216,7 @@ $$\tag{25}
 v = \omega \sqrt{A^2 - x^2},
 $$
 
-yang memberikan $v = v(x)$, di mana $\omega = \sqrt{k/m}$.
+yang memberikan $v = v(x)$, di mana $\omega = \sqrt{k/m}$. Perhatikan bahwa Persamaan (25) ini berlaku untuk GHS berupa sistem pegas-benda, sedangkan untuk sistem bandul matematis akan diperoleh rumusan yang sedikit berbeda.
 
 
 # questions
@@ -225,3 +225,4 @@ yang memberikan $v = v(x)$, di mana $\omega = \sqrt{k/m}$.
 3. Dengan menggunakan hubungan antara besaran-besaran kinematika, tunjukkan bagaimana Persamaan (3) diperoleh dari Persamaan (2).
 4. Bagaimanakah bentuk Persamaan (19)-(22) untuk sistem bandul matematis dengan simpangan kecil?
 5. Dengan menggunakan Persamaan (25) rumuskan posisi sebagai fungsi dari kecepatan $x = x(v)$, lalu berikan contoh pemanfaatannya.
+6. Untuk sistem bandul matematis perolehkan rumusan untuk $\theta = \theta(\omega)$ dan $\omega = \omega(\theta)$, yang mirip dengan Persamaan (25).
