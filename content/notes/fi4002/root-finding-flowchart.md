@@ -13,12 +13,6 @@ Secara umum rumusan pencarian akar secara iteratif melibatkan setidaknya dua nil
 Untuk mencari akar suatu fungsi $f(x)$ dapat dirumuskan terdapatnya suatu fungsi $g(f(x), f'(x), x)$ yang akan memberikan nilai tebakan berikutnya $x_n$, yang semakin mendekati nilai akar yang dicari dengan bergerak dari tebakan awal, misalnya $x_1$ (dan $x_2$), dengan menggunakan informasi $f(x)$ dan $f'(s)$. Diagram alir pencarian akar ini diberikan pada Gambar 1.
 
 {{< mermaid >}}
-%%{
-  init: {
-    'theme': 'dark'
-  }
-}%%
-
 flowchart TD
   B --> I --> N1 --> o1a
   o1b --> P1 --> P2 --> o2a
