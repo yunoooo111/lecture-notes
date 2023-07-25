@@ -30,13 +30,14 @@ yang merupakan bentuk yang akrab dikenal.
  Dapat digambarkan grafik percepatan $a$, kecepatan $v$, dan posisi $x$ setiap saat $t$ untuk benda yang melakukan GLB.
 
 {{< svg "img/fi1101/0004/a0.svg" >}}
-
 Gambar 1. Percepatan $a = 0$.
 
 {{< svg "img/fi1101/0004/a0-v2.svg" >}}
-
 Gambar 2. Kecepatan  $v = 2$.
 
 {{< svg "img/fi1101/0004/a0-v2-x1.svg" >}}
-
 Gambar 3. Posisi $x = 2t + 1$.
+
+
+# derivative
+Antara posisi $x$ dengan kecepatan $v$ dan kecepatan $v$ dengan percepatan $a$ dapat dihubungkan melalui turunan.
