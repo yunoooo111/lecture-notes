@@ -28,3 +28,7 @@ y = c_0 + c_1 x,
 $$
 
 dengan dimensi dari $c_0$ dan $c_1$, berturut-turut, adalah sama dengan dimensi dari $y$ dan $y/x$.
+
+
+## error
+Kesalahan diperoleh dari selisih antara nilai observasi variabel terikat $y_i$ dengan nilai hasil perhitungan menggunakan model $\hat{y}_i$
