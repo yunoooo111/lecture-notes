@@ -7,7 +7,7 @@ draft: false
 math: true
 url: "0005"
 ---
-Kesalahan kuadrat rata-rata diakarkan, yang dalam bahasa Inggrisnya root mean square error atau RMSE dapat direpresentasikan dalam bentuk fungsi dan matriks.
+Kesalahan kuadrat rata-rata diakarkan, yang dalam bahasa Inggrisnya root mean square error atau RMSE dapat direpresentasikan dalam bentuk fungsi dan matriks. Di sini hanya fungsi linier yang diilustrasikan.
 
 
 # data
@@ -67,13 +67,19 @@ $$\tag{7}
 \left( <\varepsilon^2> \right)^{\frac12} = \left[ \frac{1}{N} \sum_{i = 1}^N (y_i - \hat{y}_i)^2 \right]^{\frac12}
 $$
 
-yang dikenal sebagai RMSE.
+yang dikenal sebagai RMSE. Dengan menggunakan Persamaan (2) dapat diperoleh
+
+$$\tag{8}
+\left( <\varepsilon^2> \right)^{\frac12} = \left[ \frac{1}{N} \sum_{i = 1}^N (y_i - c_0 - c_1 x_i)^2 \right]^{\frac12}
+$$
+
+yang merupakan bentuk khusus dari Persamaan (7), berlaku untuk model linier.
 
 
 # matrix form
-Perumusan RMSE dalam Persamaan (7) dapat dikatakan merupakan perumusan dalam bentuk fungsi dengan adanya model pada Persamaan (1). Dalam pendekatan model yang lain, misalnya menggunakan metode elemen hingga, finite element method atau FEM, diperoleh nilai pada node-node yang umumnya disimpan dalam bentuk matriks. Bila terdapat matriks kolom
+Perumusan RMSE dalam Persamaan (8) dapat dikatakan merupakan perumusan dalam bentuk fungsi dengan adanya model pada Persamaan (1). Dalam pendekatan model yang lain, misalnya menggunakan metode elemen hingga, finite element method atau FEM, diperoleh nilai pada node-node yang umumnya disimpan dalam bentuk matriks. Bila terdapat matriks kolom
 
-$$\tag{8}
+$$\tag{9}
 \mathbf{Y} = \left[
 \begin{array}{c}
 y_1 \newline
@@ -87,7 +93,7 @@ $$
 
 untuk nilai observasi dan
 
-$$\tag{9}
+$$\tag{10}
 \mathbf{\hat{Y}} = \left[
 \begin{array}{c}
 \hat{y}_1 \newline
@@ -101,13 +107,13 @@ $$
 
 untuk nilai hasil pemodelan, maka
 
-$$\tag{10}
+$$\tag{11}
 \mathbf{Z} = \mathbf{\hat{Y}} - \mathbf{Y}
 $$
 
-merupakan matriks yang menggambarkan kesalahan. Dengan menggunakan Persamaan (10) dapat dituliskan
+merupakan matriks yang menggambarkan kesalahan. Dengan menggunakan Persamaan (11) dapat dituliskan
 
-$$\tag{11}
+$$\tag{12}
 \left( <\varepsilon^2> \right)^{\frac12} = \left[ \frac{1}{N} \sum_{i = 1}^N \mathbf{Z}^T \cdot \mathbf{Z} \right]^{\frac12}
 $$
 
@@ -118,4 +124,5 @@ yang tak lain adalah bentuk matrix untuk Persamaan (7).
 1. Gambarkan titik-titik data dari Tabel 1 dalam suatu grafik $y$ terhadap $x$.
 2. Buat suatu kurva linier terbaik yang melewati hampir semuat titik-titik data.
 3. Ilustrasikan Persamaan (3) dalam grafik yang telah dibuat dan tunjukkan bahwa Persamaan (4) dapat memberikan total nilai kecil walau masing-masing nilai mutlak per data dalam Persamaan (3) memiliki nilai besar.
-4. Jelaskan bagaimana perumusan dalam Persmaan (7) dapat mengatasi permasalahan dalam Persamaan (3) dan (4).
+4. Jelaskan bagaimana perumusan dalam Persamaan (7) dapat mengatasi permasalahan dalam Persamaan (3) dan (4).
+5. Persamaan mana saja yang berlaku lebih umum, misalnya tidak bergantung model yang digunakan, dari Persamaan (7), (8), dan (12)? Jelaskan alasannya.
