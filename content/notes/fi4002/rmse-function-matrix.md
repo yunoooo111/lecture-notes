@@ -70,6 +70,52 @@ $$
 yang dikenal sebagai RMSE.
 
 
-# exercises
-1. Gambarkan 
+# matrix form
+Perumusan RMSE dalam Persamaan (7) dapat dikatakan merupakan perumusan dalam bentuk fungsi dengan adanya model pada Persamaan (1). Dalam pendekatan model yang lain, misalnya menggunakan metode elemen hingga, finite element method atau FEM, diperoleh nilai pada node-node yang umumnya disimpan dalam bentuk matriks. Bila terdapat matriks kolom
 
+$$\tag{8}
+\mathbf{Y} = \left[
+\begin{array}{c}
+y_1 \newline
+y_2 \newline
+\dots \newline
+y_{N-1} \newline
+y_N
+\end{array}
+\right]
+$$
+
+untuk nilai observasi dan
+
+$$\tag{9}
+\mathbf{\hat{Y}} = \left[
+\begin{array}{c}
+\hat{y}_1 \newline
+\hat{y}_2 \newline
+\dots \newline
+\hat{y} _{N-1} \newline
+\hat{y} _N
+\end{array}
+\right]
+$$
+
+untuk nilai hasil pemodelan, maka
+
+$$\tag{10}
+\mathbf{Z} = \mathbf{\hat{Y}} - \mathbf{Y}
+$$
+
+merupakan matriks yang menggambarkan kesalahan. Dengan menggunakan Persamaan (10) dapat dituliskan
+
+$$\tag{11}
+\left( <\varepsilon^2> \right)^{\frac12} = \left[ \frac{1}{N} \sum_{i = 1}^N \mathbf{Z}^T \cdot \mathbf{Z} \right]^{\frac12}
+$$
+
+yang tak lain adalah bentuk matrix untuk Persamaan (7).
+
+
+# exercises
+1. Gambarkan titik-titik data dari Tabel 1 dalam suatu grafik $y$ terhadap $x$.
+2. Buat suatu kurva linier terbaik yang melewati hampir semuat titik-titik data.
+3. Ilustrasikan Persamaan (3) dalam grafik yang telah dibuat dan tunjukkan bahwa Persamaan (4) dapat memberikan total nilai kecil walau masing-masing nilai mutlak per data dalam Persamaan (3) memiliki nilai besar.
+4. Jelaskan bagaimana perumusan dalam Persmaan (7) dapat mengatasi permasalahan dalam Persamaan (3) dan (4).
