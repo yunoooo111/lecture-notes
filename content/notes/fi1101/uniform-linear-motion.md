@@ -161,9 +161,9 @@ Dengan $x = x(t)$ dan $x_0 = x(t_0)$ Persamaan (16) akan menjadi Persamaan (4).
 
 ## exercises
 1. Apakah waktu awal harus menggunakan simbol $t_0$? Dapatkah menggunakan simbol lain seperti $t_i$? Bagaimana dengan $t_n$, dengan $n = 1, 2, 3, \dots$? Bagaimana dengan $t_f$? Adakah arti khusus dari indeks bawah $i$ dan $f$?
-1. Sebuah benda titik bergerak dengan kecepatan konstan
+2. Sebuah benda titik bergerak dengan kecepatan konstan
 $5 \ \rm m/s$. Tentukan fungsi posisi setiap saatnya bila posisi awalnya, saat $t_1 = 0 \ \rm s$, adalah $10 \ \rm m$.
-2. Suatu benda berada pada posisi $20 \ \rm m$ saat $t_2 = 2 \ \rm s$. Bila benda tersebut bergerak dengan kecepatan tetap $5 \ \rm m/s$, tentukan posisi setiap saatnya.
-3. Tentukan posisi benda setiap saat bila benda tersebut bergerak dengan kecepatan tetap $5 \ \rm m/s$ dan posisinya saat $t_3 = 5 \ \rm s$ adalah $35 \ \rm m$.
-4. Bandingkan rumusan posisi benda setiap saat pada ketiga problem sebelumnya dan bahas pola yang diperoleh.
-5. Tentukan posisi benda $x(t_4)$ dan waktunya $t_4$ sehingga memberikan posisi benda setiap saat yang sama dengan problem sebelumnya.
+3. Suatu benda berada pada posisi $20 \ \rm m$ saat $t_2 = 2 \ \rm s$. Bila benda tersebut bergerak dengan kecepatan tetap $5 \ \rm m/s$, tentukan posisi setiap saatnya.
+4. Tentukan posisi benda setiap saat bila benda tersebut bergerak dengan kecepatan tetap $5 \ \rm m/s$ dan posisinya saat $t_3 = 5 \ \rm s$ adalah $35 \ \rm m$.
+5. Bandingkan rumusan posisi benda setiap saat pada ketiga problem sebelumnya dan bahas pola yang diperoleh.
+6. Tentukan posisi benda $x(t_4)$ dan waktunya $t_4$ sehingga memberikan posisi benda setiap saat yang sama dengan problem sebelumnya.

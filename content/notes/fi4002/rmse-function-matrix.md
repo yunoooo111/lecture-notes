@@ -27,8 +27,49 @@ $$\tag{1}
 y = c_0 + c_1 x,
 $$
 
-dengan dimensi dari $c_0$ dan $c_1$, berturut-turut, adalah sama dengan dimensi dari $y$ dan $y/x$.
+dengan dimensi dari $c_0$ dan $c_1$, berturut-turut, adalah sama dengan dimensi dari $y$ dan $y/x$. Dengan menggunakan suatu nilai observasi variabel bebas $x_i$ dapat diperoleh
+
+$$\tag{2}
+\hat{y}_i = c_0 + c_1 x_i,
+$$
+
+yang merupakan hasil prediksi menggunakan model.
 
 
 ## error
-Kesalahan diperoleh dari selisih antara nilai observasi variabel terikat $y_i$ dengan nilai hasil perhitungan menggunakan model $\hat{y}_i$
+Kesalahan diperoleh dari selisih antara nilai hasil perhitungan menggunakan model $\hat{y}_i$ dengan nilai observasi variabel terikat $y_i$ dalam bentuk
+
+$$\tag{3}
+\varepsilon_i = y_i - \hat{y}_i,
+$$
+
+sehingga kesalahan totalnya menjadi
+
+$$\tag{4}
+\varepsilon = \sum_{i = 1}^N \varepsilon_i.
+$$
+
+Persamaan (3) dapat menyebabkan hasil dari Persamaan (4) bernilai kecil karena terjadinya kompensasi kesalahan positif dan negatif. Untuk mencegah hal ini, Persamaan (3) diubah menjadi
+
+$$\tag{5}
+\varepsilon_i^2 = (y_i - \hat{y}_i)^2.
+$$
+
+Agar nilai kesalahan kuadrat ini agak bebas dari jumlah data, dapat dirumuskan
+
+$$\tag{6}
+<\varepsilon^2> = \frac{1}{N} \sum_{i = 1}^N (y_i - \hat{y}_i)^2.
+$$
+
+yang merupakan rata-rata kuadrat kesalahan. Selanjutnya, untuk mendapatkan rumusan besaran kesalahan yang berdimensi sama dengan variabel yang diukur dilakukan pencarian akar dari Persamaan (6)
+
+$$\tag{7}
+\left( <\varepsilon^2> \right)^{\frac12} = \left[ \frac{1}{N} \sum_{i = 1}^N (y_i - \hat{y}_i)^2 \right]^{\frac12}
+$$
+
+yang dikenal sebagai RMSE.
+
+
+# exercises
+1. Gambarkan 
+
