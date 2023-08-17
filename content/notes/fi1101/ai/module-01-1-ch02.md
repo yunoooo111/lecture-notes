@@ -122,3 +122,12 @@ $$
 + Average speed is always positive (no direction) \
 Example A particle moves from x = 3 m to x = −3 m in 2 seconds.
   - Average velocity = −3 m/s; average speed = 3 m/s
+
+
+## 2-2 Instantaneous Velocity and Speed (1 of 7)
+Learning Objectives
++ 2.07 Given a particle's position as a function of time, calculate the
+instantaneous velocity for any particular time.
++ 2.08 Given a graph of a particle's position versus time, determine
+the instantaneous velocity for any particular time.
++ 2.09 Identify speed as the magnitude of instantaneous velocity.
