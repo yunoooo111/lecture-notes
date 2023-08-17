@@ -178,9 +178,9 @@ Example
 + The graph shows the position and velocity of an elevator cab over time.
 + The slope of $x(t)$, and so also the velocity $v$, is zero from 0 to 1 s, and from 9 s on.
 + During the interval bc, the slope is constant and nonzero, so the cab moves with constant velocity (4 m/s).
-> (Atas): $x-t$, sigmoid-curce, $a(0.5, 0)$, $b(3, 4)$ -- $(8, 24)$, $(10, 26)$
+> Grafik (atas): $x-t$, sigmoid-curce, $a(0.5, 0)$, $b(3, 4)$ -- $(8, 24)$, $(10, 26)$
 + "Slopes on the $x$ versus $t$ graph are the values on the $v$ versus $t$ graph"
-> (Bawah): $v-t$, trapesium-curve, $a(0, 0)$, horisontal $b(3, 4)$ -- $c(8, 4)$, $d(10, 0)$
+> Grafik (bawah): $v-t$, trapesium-curve, $a(0, 0)$, horisontal $b(3, 4)$ -- $c(8, 4)$, $d(10, 0)$
 
 Figure 2-6
 
@@ -203,9 +203,62 @@ average acceleration between any two particular times.
 $$\tag{2-7}
 a_{\rm avg} = \frac{v_2 - v_1}{t_2 - t_1} = \frac{\Delta v}{\Delta t}
 $$
-+ Instantaneous acceleration (or just acceleration), a, for a
++ Instantaneous acceleration (or just acceleration), $a$, for a
 single moment in time is:
   - Slope of velocity vs. time graph
 $$\tag{2-8}
 a = \frac{dv}{dt}
 $$
+
+
+## 2-3 Acceleration (3 of 7)
++ Combining Equations (2-8) and (2-4):
+$$\tag{2-9}
+a = \frac{dv}{dt} = \frac{d}{dt} \left( \frac{dx}{dt} \right) = \frac{d^2x}{dt^2}
+$$
++ Acceleration is a vector quantity:
+  + Positive sign means in the positive coordinate direction
+  + Negative sign means the opposite
+  + Units of $\displaystyle \frac{\rm (distance)}{\rm (time \ squared)}$
+
+
+## 2-3 Acceleration (4 of 7)
+If the signs of the velocity and acceleration of a particle
+are the same, the speed of the particle increases. If the
+signs are opposite, the speed decreases.
+
+
+## 2-3 Acceleration (5 of 7)
+Example If a car with velocity $v$ = −25 m/s is braked to a stop in 5.0 s, then  $a$ = +5.0 m/s . Acceleration is positive, but speed has decreased.
++ Note: accelerations can be expressed in units of g
+$$\tag{2-10}
+1g = 9.8 \ {\rm m/s^2} \ (g \ {\rm unit})
+$$
+
+
+## 2-3 Acceleration (6 of 7)
+Checkpoint 3 \
+A wombat moves along an $x$ axis. What is the sign of its acceleration if it is moving (a) in the positive direction with increasing speed, (b) in the positive direction with decreasing speed, (c) in the negative direction with increasing speed, and (d) in the negative direction with decreasing speed?
+
+Answers: \
+(a) + \
+(b) − \
+(c) − \
+(d) +
+
+
+## 2-3 Acceleration (7 of 7)
+Example
++ The graph shows the velocity and acceleration of an elevator cab over
+time.
++ When acceleration is 0 (e.g. interval bc) velocity is constant.
++ When acceleration is positive (ab) upward velocity increases.
++ When acceleration is negative (cd) upward velocity decreases.
++ Steeper slope of the velocity-time graph indicates a larger magnitude of
+acceleration: the cab stops in half the time it takes to get up to speed.
+
+> Grafik (atas): $v-t$, trapesium-curve, $a(0, 0)$, horisontal $b(3, 4)$ -- $c(8, 4)$, $d(10, 0)$
++ "Slopes on the $v$ versus $t$ graph are the values on the $a$ versus $t$ graph"
+> Grafik (bawah): $a-t$, semua nol kecuali $(1 ,2)$ -- $(3 ,2)$ dan  $(8, -4)$ -- $(9, -4)$, terdapat panah yang mengaitkan kemiringan positif kurva $v$ dengan nilai $a$ positif dan kemiringan negatif kurva $v$ dengan nilai $a$ negatif.
++ What you would feel: normal, shorter, normal, longer, normal  (icon of a person)
+Figure 2-6
