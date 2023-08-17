@@ -7,7 +7,7 @@ draft: false
 math: true
 url: "0012"
 ---
-Copyright © 2018 John Wiley & Sons, Inc. and primarily advanced by Prof. A. Iskandar[.](https://drive.google.com/drive/folders/1q3BrFUVQ5Sseneaz2XDNbN8ByFQO6U9u)
+Copyright © 2018 John Wiley & Sons, Inc. and primarily advanced by Prof. A. Iskandar[.](https://drive.google.com/drive/folders/1Q3BrFUVQ5Sseneaz2XDNbN8ByFQO6U9u)
 
 
 ## 2-1 Position, Displacement, and Average Velocity (1 of 9)
