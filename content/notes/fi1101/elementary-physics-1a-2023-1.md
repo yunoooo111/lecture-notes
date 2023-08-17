@@ -8,7 +8,9 @@ math: true
 url: "0008"
 subt: "course preparation for 2023-1 semester"
 ---
-The course is 4 (1) credit hours, 4 for lecture and 1 for laboratory activities, and given at the first semester for most of all bachelor programs of an institute of technology ([Fisika, 2021](https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/#:~:text=FI1101)). And as the main reference it uses the textbook Principle of Physics, 10th Edition International Student Version with about 1320 pages ([Halliday et al., 2014](https://www.wiley.com/en-ie/Principles+of+Physics%2C+10th+Edition+International+Student+Version-p-9781118413784)). A draft of week plan is available ([Mahardika, 2023](https://itbdsti.sharepoint.com/:w:/s/FisikaITB-FISIKADASARSEMESTER1_2023-2024/EZlBsAvF88hGg8mjWPt1C5MBTsR1zELhWVGVfGFgkuHqKW)) and there are also some slides for personal use from a physics professor ([Iskandar, 2022](https://drive.google.com/drive/folders/1rT60qzkEOIakWDF1tT1ay_FVw-FhruAP)). Then, even that you are working with a 15-week semester, there is another approach by designing a 12-week plan ([Talbert, 2022](https://rtalbert.org/the-12-week-plan-for-building-courses/)).
+The course is 4 (1) credit hours, 4 for lecture and 1 for laboratory activities, and given at the first semester for most of all bachelor programs of an institute of technology ([Fisika, 2021](https://fi.itb.ac.id/kurikulum-dan-silabus-program-studi-sarjana-fisika/#:~:text=FI1101)). And as the main reference it uses the textbook Principle of Physics, 10th Edition International Student Version with about 1320 pages ([Halliday et al., 2014](https://www.wiley.com/en-ie/Principles+of+Physics%2C+10th+Edition+International+Student+Version-p-9781118413784)). A draft of week plan is available ([Mahardika et al., 2023](https://osf.io/guj9s)) and there are also some slides for personal use from a physics professor ([Iskandar, 2022](https://drive.google.com/drive/folders/1rT60qzkEOIakWDF1tT1ay_FVw-FhruAP)). Then, even that you are working with a 15-week semester, there is another approach by designing a 12-week plan ([Talbert, 2022](https://rtalbert.org/the-12-week-plan-for-building-courses/)).
+
+Figure 1. Example of connected system ([Viridi, 2021](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*W1jx6-M6FWy8-K6SCvMmVg.png)).
 
 
 ## fifteen-week plan
@@ -71,7 +73,7 @@ Further information about the session can be found by visiting the lab.
 
 
 ## evaluations
-There are some evaluations for this course, which are mid and final exams + remedial one, some quizzes and assignments, set of laboratory practice, and a research based learning project performed of group of students, where each evaluation components has its certain weight. The final score before it is mapped to A, AB, .., E, would have sort of following form
+There are some evaluations for this course, which are mid and final exams + remedial one, some quizzes and assignments, set of laboratory practice, and a research based learning project performed of group of students, where each evaluation components has its certain weight ([Mahardika & Akbar, 2023](https://osf.io/km8gn)). The final score before it is mapped to A, AB, .., E, would have sort of following form
 
 $$
 S = w_1 E_1 + w_2 E_2 + w_3 E_3 + w_q Q + w_l L + w_r R
