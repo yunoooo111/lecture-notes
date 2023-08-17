@@ -70,7 +70,142 @@ $$
 
 
 ## get function y = y(x)
-..
+Substitute last this equation into position $y = y(t)$ will produce
+
+$$
+y = y_0 + \frac{v_{0y}}{v_{0x}} (x - x_0) - \frac{g}{2v_{0x}^2} (x - x_0)^2.
+$$
+
+Previous equation can be rewritten as
+
+$$
+\begin{array}{rcl}
+y & = & \displaystyle \left( y_0 - \frac{v_{0y}}{v_{0x}} x_0 - \frac{g}{2v_{0x}^2} x_0^2 \right) \newline
+&&\newline
+&& \displaystyle + \left( \frac{v_{0y}}{v_{0x}} + \frac{g}{v_{0x}^2} x_0 \right) x \newline
+&&\newline
+&& \displaystyle + \left( - \frac{g}{2v_{0x}^2} \right) x^2,
+\end{array}
+$$
+
+which shows the terms dependence on x to the power n-th. Or simply write it as
+
+$$
+y = c_0 + c_1 x + c_2 x^2,
+$$
+
+with
+
+$$
+c_0 = \left( y_0 - \frac{v_{0y}}{v_{0x}} x_0 - \frac{g}{2v_{0x}^2} x_0^2 \right),
+$$
+
+$$
+c_1 = \left( \frac{v_{0y}}{v_{0x}} + \frac{g}{v_{0x}^2} x_0 \right),
+$$
+
+and
+
+$$
+c_2 = \left( - \frac{g}{2v_{0x}^2} \right).
+$$
+
+
+## initial velocity and launch angle
+There are two ways to define initial velocity, where the first is using $v_{0x}$ and $v_{0y}$, which has been used in previous positions of $x$ and $y$. The second is using
+
+$$
+v_{0x} = v_0 \cos \theta
+$$
+
+and
+
+$$
+v_{0y} = v_0 \sin \theta,
+$$
+
+where v₀ is magnitude of initial velocity and θ is launch angle. The last two equations can be substitute to $c_0$, c₁, and c₂ to get
+
+$$
+y = y(x, v_0. \theta),
+$$
+
+where the two last variables, v₀ and θ, can be considered as parameters since they value remain the same.
+
+
+# some graphs
+Using $y = y(x)$ some graphs can be drawn to show role of the parameters as follow.
+
+![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*QUfWPEqSt9r5m2jOQQGnAw.png)
+
+Above figure using following parameters tan θ = 4/3, v₀ = 50 m/s, x₀ = 0 m, y₀ = 0 m, which produce c₀ = 0 m, c₁ = 4/3 m⁻¹, and c₂ = — 5/900 m⁻². Unfortunately, Microsoft Excel Trendline does not give precise value of all c₀, c₁, and c₂. You can generate your own graph by modifying [graphs.xlsx](https://github.com/dudung/res4medium/blob/main/c484ff24fc79/graphs.xlsx) file.
+
+Similar graph can also be produced using [Python](https://www.python.org/) with [Matplotlib](https://matplotlib.org/), e.g. using following line of codes
+
+
+```python
+import math
+import matplotlib.pyplot as plt
+
+# define environment constant
+g = 10
+
+# define initial conditions
+x0 = 0
+y0 = 0
+theta = math.atan(4/3)
+v0 = 50
+v0x = v0 * math.cos(theta)
+v0y = v0 * math.sin(theta)
+
+# calculate coefficients
+c0 = y0 - (v0y/v0x)*x0 - (g/2*v0x**2)*x0**2
+c1 = (v0y/v0x) + (g/v0x**2)*x0
+c2 = -(g/(2*v0x**2))
+print("c0 =", c0)
+print("c1 =", c1)
+print("c2 =", c2)
+
+# create data of x and y
+N = 240
+x = [*range(0, N+1)]
+y = [(c0 + c1*i + c2*i**2) for i in x]
+
+# plot data
+plt.xlabel("x")
+plt.xticks(range(0, 241, 60))
+plt.xlim([0, 240])
+
+plt.ylabel("y")
+plt.ylim([0, 100])
+
+plt.grid()
+
+plt.plot(x, y, ".")
+plt.show()
+```
+
+which can be modified online at https://trinket.io/python3/c152351717. Output on the console is as follow
+
+```perl
+c0 = 0.0
+c1 = 1.3333333333333333
+c2 = -0.005555555555555554
+```
+
+and the graph is below
+
+![](https://miro.medium.com/v2/resize:fit:640/format:webp/0*OKAiYDXMNaq6GDZW.png)
+
+which is similar to previous result.
+
+
+## challenges
+1. Find the equation $y = y(x, v₀, θ)$.
+What would be the form of $y = y(x, x₀, y₀, v₀, θ)$? Is that the same as previous answer?
+2. How the maximum height can be obtained from $y = y(x, x₀, y₀, v₀, θ)$?
+3. How the range can be obtained from $y = y(x, x₀, y₀, v₀, θ)$?
+4. Shows that if $y(xₐ) = Hₐ$, the maximum height, then $xₐ — x₀ = 2R$, where $R$ is the range.
 
 
 Read this on Medium [@6unpnp/c484ff24fc79](https://medium.com/@6unpnp/equations-of-parabolic-motion-c484ff24fc79)
