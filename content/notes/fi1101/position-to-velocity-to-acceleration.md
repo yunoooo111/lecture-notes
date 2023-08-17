@@ -73,4 +73,55 @@ $$
 for $z$ coordinate.
 
 
+## a numerical example
+A point mass particle has following position
+
+$$
+\vec{r} = [(10 + 3t) \ \hat{x} + (1 + 4t - 5t^2) \ \hat{y} + 50 \ \hat{z}] \ {\rm m}.
+$$
+
+Then, its velocity is
+
+$$
+\vec{v} = [3 \ \hat{x} + (4 - 10t) \ \hat{y}] \ {\rm m/s}.
+$$
+
+And also its acceleration is
+
+$$
+\vec{a} = -10 \ \hat{y} \ {\rm m/s^2}
+$$
+
+Notice that differentiation can be performed directly to the vector or to each component, e.g. $x$, $y$, $z$, first and then combine the results back to form a vector.
+
+
+## graphs
+By taking only component in y direction following graphs can be drawn.
+
+![](https://miro.medium.com/v2/resize:fit:640/format:webp/1*oY18JKmjBdPRITK-CFnggQ.png)
+
+Above is position $y = (1 + 4t - 5t^2) \ {\rm m}$ with maximum point is located at (0.4, 1.8).
+
+![](https://miro.medium.com/v2/resize:fit:640/format:webp/1*EQ4x0gdIy8WBIRcrpxr7ZQ.png)
+
+Velocity function is $v = (4 - 10t) \ {\rm m/s}$ with zero velocity is found at t = 0.4 s.
+
+![](https://miro.medium.com/v2/resize:fit:640/format:webp/1*6HHYmP4r-AH4mziZRsV7LA.png)
+
+Then finally the acceleration is simply $a = -10 \ {\rm m/s^2}$, which remains constant all time.
+
+Note: Previous three figures are created using [Desmos](https://www.desmos.com/calculator).
+
+
+## challenges
+1. Use component in $z$ direction and find velocity and acceleration. Draw also the graphs.
+Do it the same way for component in x direction.
+2. For the component in $y$ direction, what are the information relating maximum point and velocity? Explain in brief.
+3. Could two different functions of time for position lead to the same function of time for velocity? Explain the answer with three different examples.
+4. A particle is moving along $x$ direction with its position $x = e + bt + ct^2$. Find its velocity and acceleration as function of time. What is the relation of $e$, $b$, and $c$ if the particle once stops at time $t = t_1$?
+5. There are two particles with positions $x₁ = (10 + 2t)$ m and $x₂ = (2 + 4t)$ m. 6. Find velocity as function of time for both particles. Which particle is ahead the other at time $t = 0, 4, 8$ s? Does it depend on the velocity? Explain it.
+7. Suppose that a point mass particle has following position as function of time, $x = (2 + \cos 0.25π t)$ m dan y = (3 + \sin 0.25π t) m. Find its velocity and acceleration. Draw its trajectory accompanied by its velocity and acceleration at time t = 0, 1, 2, 3, 4, 5, 6, 7 s.
+8. In calculate the derivative of position, why the derivative of unit vectors are not taken into account? Does it hold only for Cartesian coordinate system or also in other coordinate system as polar coordinate system?
+
+
 Read this on Medium [@6unpnp/d335de4e1676](https://medium.com/@6unpnp/position-to-velocity-to-acceleration-d335de4e1676)
