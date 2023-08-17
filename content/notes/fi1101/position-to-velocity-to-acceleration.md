@@ -15,9 +15,62 @@ Essence of calculus is derivative, that is the instantaneous rate of change of a
 Suppose that there is position as function of time t in 3-d
 
 $$
+\begin{array}{rcl}
+\vec{r} & = & x \ \hat{i} + y \ \hat{j} + z \ \hat{k} \newline
+& = & x \ \hat{e}_x + y \ \hat{e}_y + z \ \hat{e}_z \newline
+& = & x \ \hat{x} + y \ \hat{y} + z \ \hat{z} \newline
+& = & x_1 \ \hat{x}_1 + x_2 \ \hat{x}_2 + x_3 \ \hat{x}_3 \newline
+& = & x_1 \ \hat{e}_1 + x_2 \ \hat{e}_2 + x_3 \ \hat{e}_3,
+\end{array}
 $$
 
-..
+where the first style is common in high school, second and third styles in college of science, and the last two styles in college of engineering. It would be better that all styles is understood. Third style will be used here.
+
+Velocity is first derivative of position with respect to time
+
+$$
+\begin{array}{rcl}
+\vec{v} & = & \displaystyle \frac{d\vec{r}}{dt} \newline
+&&\newline
+& = & \displaystyle \frac{dx}{dt} \ \hat{x} + \frac{dy}{dt} \ \hat{y} + \frac{dz}{dt} \ \hat{z} \newline
+&&\newline
+& = & v_x \ \hat{x} + v_y \ \hat{y} + v_z \ \hat{z} \newline
+\end{array}
+$$
+
+and acceleration is first derivative of velocity
+
+$$
+\begin{array}{rcl}
+\vec{a} & = & \displaystyle \frac{d\vec{v}}{dt} \newline
+&&\newline
+& = & \displaystyle \frac{dv_x}{dt} \ \hat{x} + \frac{dv_y}{dt} \ \hat{y} + \frac{dv_z}{dt} \ \hat{z} \newline
+&&\newline
+& = & a_x \ \hat{x} + a_y \ \hat{y} + a_z \ \hat{z} \newline
+\end{array}
+$$
+
+or second derivative of position.
+
+The relation between position and its derivatives can also be displayed for each coordinate, e.g.
+
+$$
+v_x = \frac{dx}{dt}, \ \ \ \  a_x = \frac{dv_x}{dt},
+$$
+
+for $x$ coordinate,
+
+$$
+v_y = \frac{dy}{dt}, \ \ \ \  a_y = \frac{dv_y}{dt},
+$$
+
+for $y$ coordinate, and
+
+$$
+v_z = \frac{dz}{dt}, \ \ \ \  a_z = \frac{dv_z}{dt},
+$$
+
+for $z$ coordinate.
 
 
 Read this on Medium [@6unpnp/d335de4e1676](https://medium.com/@6unpnp/position-to-velocity-to-acceleration-d335de4e1676)
