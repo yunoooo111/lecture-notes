@@ -7,7 +7,7 @@ draft: false
 math: true
 url: "0012"
 ---
-Copyright © 2018 John Wiley & Sons, Inc. and primarily advanced by Prof. A. Iskandar.
+Copyright © 2018 John Wiley & Sons, Inc. and primarily advanced by Prof. A. Iskandar[.](https://drive.google.com/drive/folders/1q3BrFUVQ5Sseneaz2XDNbN8ByFQO6U9u)
 
 
 ## 2-1 Position, Displacement, and Average Velocity (1 of 9)
@@ -131,3 +131,81 @@ instantaneous velocity for any particular time.
 + 2.08 Given a graph of a particle's position versus time, determine
 the instantaneous velocity for any particular time.
 + 2.09 Identify speed as the magnitude of instantaneous velocity.
+
+
+## 2-2 Instantaneous Velocity and Speed (2 of 7)
++ Average measurement assume that the velocity is always the
+same for the given time interval.
+> Grafik $x-t$, kurva semi-circle, dan garis lurus $(t_1, x_1)$ -- $(t_2, x_2)$, $t_2 > t_1$ dan $x_2 > x_1$, horisontal $\Delta t$, vertikal $\Delta x$, pada kurva terdapat "some particle's trajectory in 1-D"
+
+
+## 2-2 Instantaneous Velocity and Speed (3 of 7)
++ To obtained a better measurement, take smaller time interval
+> Seperti grafik sebelumnya dengan tambahan $t_3$, $t_1 < t_3 < t_2$.
+
+
+## 2-2 Instantaneous Velocity and Speed (4 of 7)
++ To obtained a better measurement, take smaller time interval.
+> Seperti grafik sebelumnya dengan tanpa $t_3$ dan garis lurus menjadi garis singgung di titik $t_2$.
+
+
+## 2-2 Instantaneous Velocity and Speed (5 of 7)
++ Instantaneous velocity, or just velocity, $v$, is:
+  - At a single moment in time
+  - Obtained from average velocity by shrinking $\Delta t$
+  - The slope of the position-time curve for a particle at an instant (the derivative of position)
+  - A vector quantity with units $\displaystyle \frac{\rm (distance)}{\rm (time)}$
+    * The sign of the velocity represents its direction
+$$\tag{2-4}
+\lim_{\Delta t \to 0} \frac{\Delta x}{\Delta t} = \frac{dx}{dt}
+$$
+
+
+## 2-2 Instantaneous Velocity and Speed (6 of 7)
++ Speed is the magnitude of (instantaneous) velocity
+
+Example A velocity of 5 m/s and −5 m/s both have an associated speed of 5 m/s. \
+Checkpoint 2 \
+The following equations give the position $x(t)$ of a particle in four situations
+(in each equation, $x$ is in meters, $t$ is in seconds, and $t > 0$): (1) $x = 3t - 2$; (2) $x = -4t^2 - 2$; (3) $\displaystyle x = \frac{2}{t^2}$; and (4) $x = -2$. (a) In which situation is the velocity $v$ of the particle constant? (b) In which is $v$ in the negative x direction? \
+Answers: \
+(a) Situations 1 and 4 (zero) \
+(b) Situations 2 and 3
+
+
+## 2-2 Instantaneous Velocity and Speed (7 of 7)
+Example
++ The graph shows the position and velocity of an elevator cab over time.
++ The slope of $x(t)$, and so also the velocity $v$, is zero from 0 to 1 s, and from 9 s on.
++ During the interval bc, the slope is constant and nonzero, so the cab moves with constant velocity (4 m/s).
+> (Atas): $x-t$, sigmoid-curce, $a(0.5, 0)$, $b(3, 4)$ -- $(8, 24)$, $(10, 26)$
++ "Slopes on the $x$ versus $t$ graph are the values on the $v$ versus $t$ graph"
+> (Bawah): $v-t$, trapesium-curve, $a(0, 0)$, horisontal $b(3, 4)$ -- $c(8, 4)$, $d(10, 0)$
+
+Figure 2-6
+
+
+## 2-3 Acceleration (1 of 7)
+Learning Objectives
++ 2.10 Apply the relationship between a particle's average
+acceleration, its change in velocity, and the time interval for
+that change.
++ 2.11 Given a particle's velocity as a function of time, calculate the
+instantaneous acceleration for any particular time.
++ 2.12 Given a graph of a particle's velocity versus time, determine
+the instantaneous acceleration for any particular time and the
+average acceleration between any two particular times.
+
+
+## 2-3 Acceleration (2 of 7)
++ A change in a particle's velocity is acceleration
++ Average acceleration over a time interval
+$$\tag{2-7}
+a_{\rm avg} = \frac{v_2 - v_1}{t_2 - t_1} = \frac{\Delta v}{\Delta t}
+$$
++ Instantaneous acceleration (or just acceleration), a, for a
+single moment in time is:
+  - Slope of velocity vs. time graph
+$$\tag{2-8}
+a = \frac{dv}{dt}
+$$
