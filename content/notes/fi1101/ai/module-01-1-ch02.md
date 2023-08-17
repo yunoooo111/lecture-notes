@@ -180,7 +180,7 @@ Example
 + During the interval bc, the slope is constant and nonzero, so the cab moves with constant velocity (4 m/s).
 > Grafik (atas): $x-t$, sigmoid-curce, $a(0.5, 0)$, $b(3, 4)$ -- $(8, 24)$, $(10, 26)$
 + "Slopes on the $x$ versus $t$ graph are the values on the $v$ versus $t$ graph"
-> Grafik (bawah): $v-t$, trapesium-curve, $a(0, 0)$, horisontal $b(3, 4)$ -- $c(8, 4)$, $d(10, 0)$
+> Grafik (bawah): $v-t$, trapesium-curve, $a(0, 0)$, $(1, 0)$ -- $(3,4)$,  horisontal $b(3, 4)$ -- $c(8, 4)$, $(8, 4)$ -- $(9, 0)$, $d(10, 0)$
 
 Figure 2-6
 
@@ -257,8 +257,35 @@ time.
 + Steeper slope of the velocity-time graph indicates a larger magnitude of
 acceleration: the cab stops in half the time it takes to get up to speed.
 
-> Grafik (atas): $v-t$, trapesium-curve, $a(0, 0)$, horisontal $b(3, 4)$ -- $c(8, 4)$, $d(10, 0)$
+> Grafik (atas): $v-t$, trapesium-curve, $a(0, 0)$, $(1, 0)$ -- $(3,4)$,  horisontal $b(3, 4)$ -- $c(8, 4)$, $(8, 4)$ -- $(9, 0)$, $d(10, 0)$
 + "Slopes on the $v$ versus $t$ graph are the values on the $a$ versus $t$ graph"
 > Grafik (bawah): $a-t$, semua nol kecuali $(1 ,2)$ -- $(3 ,2)$ dan  $(8, -4)$ -- $(9, -4)$, terdapat panah yang mengaitkan kemiringan positif kurva $v$ dengan nilai $a$ positif dan kemiringan negatif kurva $v$ dengan nilai $a$ negatif.
-+ What you would feel: normal, shorter, normal, longer, normal  (icon of a person)
+
+> What you would feel: normal, shorter, normal, longer, normal  (icon of a person)
+
 Figure 2-6
+
+
+## 2-4 Constant Acceleration (1 of 8)
+Learning Objectives
++ 2.13 For constant acceleration, apply the relationships between
+position, velocity, acceleration, and elapsed time (Table 2-1).
++ 2.14 Calculate a particle's change in velocity by integrating its
+acceleration function with respect to time.
++ 2.15 Calculate a particle's change in position by integrating its
+velocity function with respect to time.
+
+
+## 2-4 Constant Acceleration (2 of 8)
++ In many cases acceleration is constant, or nearly so.
++ For these cases, 5 special equations can be used.
++ Note that constant acceleration means a velocity with a constant slope, and a
+position with varying slope (unless $a = 0$).
+
+> Grafik kurva kuadratik terbuka ke atas $x-t$, $x = c_2 t^2 + c_1 t + c_0$, $c_0 = x_0$, $x(t)$, Slope varies 
++ Slope of the position graph are plotted on the velocity graph.
+> Grafik kurva linier naik $v = 2c_2 t + c_1$, $c_1 = v_0$, $v(t)$, Slope = a
+Slope of the velocity graph is plotted on the acceleration graph.
+> Grafik kurva mendatar, $a(t)$, Slope = 0
+
+Figure 2-9
