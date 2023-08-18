@@ -289,3 +289,14 @@ Slope of the velocity graph is plotted on the acceleration graph.
 > Grafik kurva mendatar, $a(t)$, Slope = 0
 
 Figure 2-9
+
+
+## 2-4 Constant Acceleration (3 of 8)
++ First basic equation
+  - When the acceleration is constant, the average and instantaneous accelerations are equal
+  - Rewrite Eq. (2-7) and rearrange
+$$\tag{2-11}
+a = a_{\rm avg} = \frac{v - v_0}{t - 0}, \ \ \ \ v = v_0 + at
+$$
++ This equation reduces to $v = v_0$ for t = 0
++ Its derivative yields the definition of $a$, $\displaystyle \frac{dv}{dt}$
