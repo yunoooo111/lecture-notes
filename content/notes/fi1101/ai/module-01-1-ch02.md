@@ -367,4 +367,22 @@ situations: (1) $x = 3t - 4$; (2) $x = -5t^3 + 4t^2 + 6$; (3) $\displaystyle x =
 To which of these situations do the equations of Table 2-1 apply?
 
 Answer: \
-Situations 1 ($a = 0$) and 4.
+Situations 1 ($a = 0$) and 4 ($a = ?$).
+
+
+## 2-5 Free-Fall Acceleration (1 of 11)
+Learning Objectives
++ 2.16 Identify that if a particle is in free flight (whether upward or
+downward) and if we can neglect the effects of air on its motion, the particle has a constant downward acceleration with a magnitude $g$ that we take to be $9.8 \  {\rm m/s^2}$.
++ 2.17 Apply the constant acceleration equations (Table 2-1) to free-fall
+motion.
+
+> Bulu dan apel dijatuhkan dalam lingkungan vakum dan teramati jarak antar dua posisi berurutan semakin besar akan tetapi sama untuk kedua benda.
+
+Figure 2-12
+
+
+## 2-5 Free-Fall Acceleration (2 of 11)
+url https://www.youtube.com/watch?v=E43-CfukEgs
+
+{{< youtube E43-CfukEgs >}}
