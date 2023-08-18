@@ -471,3 +471,83 @@ Answers: \
 (a) The sign is positive (the ball moves upward); \
 (b) The sign is negative (the ball moves downward); \
 (c) The ball's acceleration is always $9.8 \ {\rm m/s^2}$ at all points along its trajectory.
+
+
+## 2-5 Free-Fall Acceleration (6 of 11)
+Example \
+Alice and Bill are standing at the top of a cliff of height $H$. Both
+throw a ball with initial speed $v_0$, Alice straight down and Bill
+straight up. The speed of the balls when they hit the ground are $v_A$
+and $v_B$ respectively. Which of the following is true: \
+(a) $v_A < v_B$; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(b) $v_A = v_B$; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(c) $v_A > v_B$.
+
+> Gambar Alice panah ke bawah $v_0$ dan dilanjutkan sampai ke lantai $v_A$; Bill panah ke atas $v_0$ membentuk parabola sampai maksimum lalu ke bawah dan mencapai lantai $v_B$; tinggi Alice dan Bill adalah $H$.
+
+
+## 2-5 Free-Fall Acceleration (7 of 11)
+Example \
+Since the motion up and back down is symmetric, intuition should
+tell you that $v = v_0$ \
+We can prove that your intuition is correct:
+
+$$
+v^2 - v_0 = 2 (-g)
+$$
+
+> Gambar Bill melempar ke atas dari posisi awal ($y = H$) dengan laju $v_0$ dan bola kembali ke ketinggian semula ($y = H$) dengan laju $v = v_0$.
+
+This looks just like Bill threw the ball down with speed $v_0$, so the speed at the bottom should be the same as Alice’s ball.
+
+
+## 2-5 Free-Fall Acceleration (8 of 11)
+Example \
+We can also just use the equation directly:
++ Alice: $v_A^2 - v_0^2 = 2(-g)(H - 0)$
++ Bill:  $v_B^2 - v_0^2 = 2(-g)(H - 0)$
+
+They are the same!!
+
+
+## 2-5 Free-Fall Acceleration (9 of 11)
+Example\
+The pilot of a hovering helicopter drops a lead brick from a height of $1000 \ {\rm m}$. How long does it take to reach the ground and how fast is it moving when it gets there? (neglect air resistance)
+
+> Gambar helikopter pada ketinggian 1000 m menjatuhkan benda, arah sumbu $y$ positif ke atas, $y = 0$ terletak di tanah.
+
+
+## 2-5 Free-Fall Acceleration (10 of 11)
+Example
++ First choose coordinate system.
++ Origin and $y$-direction.
++ Next write down position equation:
+$$
+y = y_0 + v_{0y} - \tfrac12 gt^2
+$$
++ Realize that $v_{0y} = 0$.
+$$
+y = y_0 + - \tfrac12 gt^2
+$$
+
+> Gambar helikopter pada ketinggian 1000 m menjatuhkan benda, arah sumbu $y$ positif ke atas, $y = 0$ terletak di tanah.
+
+
+## 2-5 Free-Fall Acceleration (11 of 11)
+Example \
+Solve for time $t$ when $y = 0$ given that $y_0 = 1000 \ {\rm m}$.
+
+$$
+y = y_0 - \tfrac12 gt^2 \rightarrow t = \sqrt{\frac{2y_0}{g}},
+$$
+
+which gives $\sqrt{2 \times 1000 / 9.9} = 14.3 \ {\rm s}$.
+
+Recall: $v_y^2 - v_{0y^2} = 2a(y - y_0)$
+
+Solve for $v_y$:
+$$
+v_y = \pm \sqrt{2gy_0} = - 140 \ {\rm m/s}
+$$
+
+> Gambar helikopter pada ketinggian 1000 m menjatuhkan benda, arah sumbu $y$ positif ke atas, $y = 0$ terletak di tanah.
