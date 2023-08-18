@@ -10,6 +10,55 @@ url: "0012"
 Copyright © 2018 John Wiley & Sons, Inc. and primarily advanced by Prof. A. Iskandar[.](https://drive.google.com/drive/folders/1Q3BrFUVQ5Sseneaz2XDNbN8ByFQO6U9u)
 
 
+## A Message from Prof. Michio Kaku
+url https://www.youtube.com/watch?v=weVBAQhl804
+
+{{< youtube weVBAQhl804 >}}
+
+> We physicists flunk students taking elementary physics. And more or less encouraged to do so by engineering department.
+
+> We don't want to train engineer who makes bridges that fall down. Engineers that create skyscrapers that fall over.
+
+> And you encounter freshment physics for the first time, watch out. If you have a rough time, that's the way it is.
+
+&nbsp;<br>
+
+> url https://en.wikipedia.org/w/index.php?oldid=1170789678
+
+> Kaku was inspired to pursue a career in physics after seeing a photograph of Albert Einstein's desk at the time of his death.
+
+> Kaku was fascinated to learn that Einstein had been unable to complete his unified field theory and resolved to dedicate his life to solving this theory.
+
+> By the time Kaku was in high school, he had developed a strong passion for physics, then for a science fair, Michio built a 2.3 MeV “atom smasher” in his parents' garage.
+
+
+## Elon Musk's obsession with truth
+url https://www.youtube.com/watch?v=Tu4DaH2MIg4
+
+{{< youtube Tu4DaH2MIg4 >}}
+
+> So for me, physics was sort of a very natural thing to study.
+
+> Nobody made me study.
+
+
+## Menteri Kesehatan RI
+url https://www.youtube.com/watch?v=vfKIP0u2q-g&t=15s
+
+{{< youtube vfKIP0u2q-g >}}
+
+
+> .. sebagai asalah satu alumni Prodi Fisika, Fakultas MIPA, Institut Teknologi Bandung ..
+
+> .. saya mendapatkan banyak kesempatan untuk mengembangkan kemampuan diri, baik secara keilmuan fisika itu sendiri, maupun kemampuan-kemampuan lain yang berguna bagi kelanjutan karir saya.
+
+> Untuk adik-adik saya tercinta, mahasiswa fisika ITB, baik yang baru saja lulus maupun yang sedang menjalani pendidikan, ambilah semua kesempatan-kesempatan yang ditawarkan oleh Jurusan Fisika ITB, dalam pengalaman ilmu untuk menuju karir yang berkualitas serta membangun bangsa dan negara ke arah yang lebih baik.
+
+> Dan untuk Anda yang bercita-cita berkuliah di Fisika ITB, yakin dan bersiaplah untuk menempuh jalan yang berliku dan penuh makna.
+
+> Kejarlah keinginanmu tanpa ragu dan persiapkan masa depanmu semaksimal mungkin.
+
+
 ## 2-1 Position, Displacement, and Average Velocity (1 of 9)
 Learning Objectives
 + 2.01 Identify that if all parts of an object move in the same direction at the same
@@ -391,3 +440,34 @@ Figure 2-12
 url https://www.youtube.com/watch?v=E43-CfukEgs
 
 {{< youtube E43-CfukEgs >}}
+
+
+## 2-5 Free-Fall Acceleration (3 of 11)
++ Free-fall acceleration is the rate at which an object accelerates downward in the absence of air resistance
+  + Varies with latitude and elevation
+  + Written as $g$, standard value of $9.8 \ {\rm m/s^2}$
+  + Independent of the properties of the object (mass, density, shape, see Figure 2-12)
++ The equations of motion in Table 2-1 apply to objects in free-fall near Earth's surface
+  - In vertical flight (along the $y$ axis)
+  - Where air resistance can be neglected
+
+
+## 2-5 Free-Fall Acceleration (4 of 11)
++ The free-fall acceleration is downward (−y direction)
+  o Value −g in the constant acceleration equations
++ The free-fall acceleration near Earth's surface is $a = -g = −9.8 \ {\rm m/s^2}$, and the magnitude of the acceleration is $g = 9.8 \ {\rm m/s^2}$.
++ Do not substitute $−9.8 \ {\rm m/s^2}$ for $g$.
+
+
+## 2-5 Free-Fall Acceleration (5 of 11)
+Checkpoint 5 \
+(a) If you toss a ball straight up, what is the sign of the ball's
+displacement for the ascent, from the release point to the highest
+point? (b) What is it for the descent, from the highest point back to
+the release point? (c) What is the ball's acceleration at its highest
+point?
+
+Answers: \
+(a) The sign is positive (the ball moves upward); \
+(b) The sign is negative (the ball moves downward); \
+(c) The ball's acceleration is always $9.8 \ {\rm m/s^2}$ at all points along its trajectory.
