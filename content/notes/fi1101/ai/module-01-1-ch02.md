@@ -379,6 +379,11 @@ motion.
 
 > Bulu dan apel dijatuhkan dalam lingkungan vakum dan teramati jarak antar dua posisi berurutan semakin besar akan tetapi sama untuk kedua benda.
 
+> url https://demo.webassign.net/ebooks/hrw7demo/reference/xlinks/c02/halliday01c02-fig-00010.htm
+
+
+![](https://demo.webassign.net/ebooks/hrw7demo/art/images/c02/nP0007-y.jpg)
+
 Figure 2-12
 
 
