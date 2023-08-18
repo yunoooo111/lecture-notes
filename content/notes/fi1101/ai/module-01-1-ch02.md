@@ -300,3 +300,71 @@ a = a_{\rm avg} = \frac{v - v_0}{t - 0}, \ \ \ \ v = v_0 + at
 $$
 + This equation reduces to $v = v_0$ for t = 0
 + Its derivative yields the definition of $a$, $\displaystyle \frac{dv}{dt}$
+
+
+## 2-4 Constant Acceleration (4 of 8)
++ Second basic equation
+  - Rewrite Equation (2-2) and rearrange
+$$\tag{2-12}
+v_{\rm avg} = \frac{x - x_0}{t- 0}, \ \ \ \ x = x_0 + v_{\rm avg} t
+$$
++ Average = $\displaystyle \frac{\rm (initial) + (final) }{2}$
+$$\tag{2-13}
+v_{\rm avg} = \frac12(v_0 + v)
+$$
++ Substitute (2-11) to (2-13)
+
+
+## 2-4 Constant Acceleration (5 of 8)
+$$\tag{2-14}
+v_{\rm avg} = v_0 + \frac12 at
+$$
++ Substitute (2-14) into (2-12)
+$$\tag{2-15}
+x - x_0 = v_0 t + \frac12 at^2
+$$
+
+
+## 2-4 Constant Acceleration (6 of 8)
++ These two equations can be obtained by integrating a constant
+acceleration
++ Enough to solve any constant acceleration problem
+  - Solve as simultaneous equations
++ Additional useful forms:
+$$\tag{2-16}
+v^2 = v_0^2 + 2a(x - x_0)
+$$
+
+$$\tag{2-17}
+x - x_0 = \frac12 (v_0 + v) t
+$$
+
+$$\tag{2-18}
+x - x_0 = vt - \frac12 at^2
+$$
+
+
+## 2-4 Constant Acceleration (7 of 8)
+• Table 2-1 shows the 5 equations and the quantities missing from
+them.
+
+Table 2.1 Equations for Motion with Constant Acceleration $a$
+
+Equation Number | Equation | Missing quantity
+:-: | :-: | :-:
+2-11 | $v = v_0 + at$ | $x - x_0$
+2-15 | $x - x_0 = v_0 t + \frac12 at^2$ | $v$
+2-16 | $v^2 = v_0^2 + 2a(x - x_0)$ | $t$
+2-17 | $x - x_0 = \frac12 (v_0 + v) t$ | $a$
+2-18 | $x - x_0 = vt - \frac12 at^2$ | $v_0$
+
+
+## 2-4 Constant Acceleration (8 of 8)
+Checkpoint 4 \
+The following equations give the position x(t) of a particle in four
+situations: (1) $x = 3t - 4$; (2) $x = -5t^3 + 4t^2 + 6$; (3) $\displaystyle x = \frac{2}{t^2} - \frac{4}{t}$; (4) $x = 5t^2 - 3$.
+
+To which of these situations do the equations of Table 2-1 apply?
+
+Answer: \
+Situations 1 ($a = 0$) and 4.
