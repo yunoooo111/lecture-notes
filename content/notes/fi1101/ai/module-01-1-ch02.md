@@ -551,3 +551,70 @@ v_y = \pm \sqrt{2gy_0} = - 140 \ {\rm m/s}
 $$
 
 > Gambar helikopter pada ketinggian 1000 m menjatuhkan benda, arah sumbu $y$ positif ke atas, $y = 0$ terletak di tanah.
+
+
+## 2-6 Graphical Integration in Motion Analysis (1 of 7)
+Learning Objectives
++ 2.18 Determine a particle's change in velocity by graphical integration on a graph of acceleration versus time.
++ 2.19 Determine a particle's change in position by graphical integration on a graph of velocity versus time.
+
+> Gambar (a) $a-t$, kurva trapesium, $t_0$ dan $t_1$ diarsir di bawah kurva, "This area gives the change in velocity".
+
+> Gambar (b) $v-t$, kurva trapezoid (dua garis di atas membentuk puncak, dinding kiri, tanpa dinding kanan), $t_0$ dan $t_1$ diarsir di bawah kurva, "This are gives the change in position".
+
++ Whether (a) and (b) are related, or just as illustration?
+
+
+## 2-6 Graphical Integration in Motion Analysis (2 of 7)
++ Instantaneous velocity is defined as $\displaystyle v = \frac{dv}{dt}$
++ In "calculus" language we would write $dx = vdt$, which we can integrate to obtaind:
+$$
+dx = v(t)dt \rightarrow x(t_2) - x(t_1) = \sum v(t) \Delta t
+$$
++ Graphically, this is adding up lots of small rectangles:
+
+> Gambar $v(t)$ pada grafik $v-t$ dengan daerah di bawah kurva dipartisi kotak-kotak.
+
+$$
+\Box + \Box + \dots + \Box + \Box = {\rm displacement}
+$$
+
+$$
+x(t_2) - x(t_1) = \int_{t_1}^{t_2} v(t) dt
+$$
+
+
+## 2-6 Graphical Integration in Motion Analysis (3 of 7)
++ Integrating velocity:
+  - Given a graph of an object's velocity $v$ versus time $t$, we can integrate to find position
++ The Fundamental Theorem of Calculus gives:
+$$\tag{2-29}
+x_1 - x_0 = \int_{t_0}^{t_1} v dt
+$$
++ The definite integral in the right can be evaluated from a graph:
+$$\tag{2-30}
+\int_{t_0}^{t_1} v dt = \left(
+\begin{array}{c}
+{\rm area \ between \ velocity \ curve} \newline
+{\rm and \ time \ axis, \ from} \ t_0 \ {\rm to} \ t_1
+\end{array}
+\right)
+$$
+
+
+## 2-6 Graphical Integration in Motion Analysis (4 of 7)
++ Integrating acceleration:
+  - Given a graph of an object's acceleration $a$ versus time $t$, we can integrate to find velocity
++ The Fundamental Theorem of Calculus gives:
+$$\tag{2-27}
+v_1 - v_0 = \int_{t_0}^{t_1} a dt
+$$
++ The definite integral in the right can be evaluated from a graph:
+$$\tag{2-28}
+\int_{t_0}^{t_1} a dt = \left(
+\begin{array}{c}
+{\rm area \ between \ velocity \ curve} \newline
+{\rm and \ time \ axis, \ from} \ t_0 \ {\rm to} \ t_1
+\end{array}
+\right)
+$$
