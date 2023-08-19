@@ -664,3 +664,28 @@ $$
 + e. Determine the distance traveled by the particle between the time interval 0 ≤ t ≤ 4
 
 
+## Summary (1 of 5)
+Position
++ Relative to origin
++ Positive and negative directions
+
+Displacement
++ Change in position (vector)
+$$\tag{2-1}
+\Delta x = x_2 - x_1
+$$
+
+
+## Summary (1 of 5)
+Average Velocity
++ $\displaystyle \frac{ {\rm Displacement  \ (vector)} }{ {\rm time} }$
+$$
+v_{\rm avg} = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}
+$$
+
+Average speed
++ $\displaystyle \frac{ {\rm Distance \ traveled} }{ {\rm time} }$
+
+$$
+s_{\rm avg} = \frac{\rm total \ distance}{\Delta t}
+$$
