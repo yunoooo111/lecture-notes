@@ -618,3 +618,20 @@ $$\tag{2-28}
 \end{array}
 \right)
 $$
+
+
+## 2-6 Graphical Integration in Motion Analysis (5 of 7)
+Example \
+The graph shows the acceleration of a person's head and torso in a whiplash incident.
+
+> Grafik (a) $a ({\rm m/s^2}) - t ({\rm ms})$, sumbu tegak (0, 50, 100), sumbu mendatar (0, 40, 80, 120, 160), kurva Torso: black (0, 0), (40, 0), (100, 50), (120, 50), (160, 20), (170, 20), kurva head: black (110, 0), (160, 90), (170, 50).  
+
+To calculate the torso speed at $t = 0.110 \ {\rm s}$ (assuming an initial speed of $0$), find the area under the pink curve:
+
+> Grafk (b) $a - t$, sumbu tegak (50), sumbu mendatar (40, 100, 110), kurva torso: pink (0, 0), (40, 0), (100, 50), (110, 50), region A, B, C, dashed line (0, 50) - (100, 50) - (100, 0).
+
++ Area $A = 0$
++ Area $B = 0.5 (0.060 \ {\rm s}) (50 \ {\rm m/s^2}) = 1.5 \ {\rm m/s}$
++ Area $C = (0.010 \ {\rm s}) (50 \ {\rm m/s^2} = 0.5 \ {\rm m/s}$
++ Total area = $2.0 \ {\rm m/s}$.
+
