@@ -95,6 +95,8 @@ direction at the same rate (no rotation or stretching)
 
 > Gambar garis bilangan dilengkapi di bagian atas dengan panah arah ke kanan menggambarkan arah positif dan di bawahnya panah arah ke kiri menggambaarkan arah negatif, origin terletak di titik 0, satuan garis bilangan dalam m, $x \in [-3, 3]$.
 
+url https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTewfCwtKfpld3sDMQI8PjRxZdPIZYHboerMlOJ1q4Unc9UWrIHu8goGEX8-Rsm-A5Zhw&usqp=CAU
+
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTewfCwtKfpld3sDMQI8PjRxZdPIZYHboerMlOJ1q4Unc9UWrIHu8goGEX8-Rsm-A5Zhw&usqp=CAU)
 
 Figure 2-1
@@ -585,6 +587,10 @@ $$
 x(t_2) - x(t_1) = \int_{t_1}^{t_2} v(t) dt
 $$
 
+url https://ximera.osu.edu/mooculus/calculus1/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles
+
+![](https://ximera.osu.edu/mooculus/calculus1/approximatingTheAreaUnderACurve/digInApproximatingAreaWithRectangles-figure5.svg)
+
 
 ## 2-6 Graphical Integration in Motion Analysis (3 of 7)
 + Integrating velocity:
@@ -623,6 +629,10 @@ $$
 
 
 ## 2-6 Graphical Integration in Motion Analysis (5 of 7)
+url https://lowbackpain.com/news/what-is-whiplash-and-what-are-the-symptoms-of-severe-whiplash (2022)
+
+![](https://lowbackpain.com/images/uploads/large/whatiswhiplash-non-surgicalorthopaedics-1650906782.jpeg)
+
 Example \
 The graph shows the acceleration of a person's head and torso in a whiplash incident.
 
@@ -636,6 +646,10 @@ To calculate the torso speed at $t = 0.110 \ {\rm s}$ (assuming an initial speed
 + Area $B = 0.5 (0.060 \ {\rm s}) (50 \ {\rm m/s^2}) = 1.5 \ {\rm m/s}$
 + Area $C = (0.010 \ {\rm s}) (50 \ {\rm m/s^2} = 0.5 \ {\rm m/s}$
 + Total area = $2.0 \ {\rm m/s}$.
+
+url https://www.doubtnut.com/question-answer-physics/whiplash-injury-commonly-occurs-in-a-rear-end-collision-where-a-front-car-is-hit-from-behind-by-a-se-513293910
+
+![](https://d10lpgp6xz60nq.cloudfront.net/physics_images/MST_AG_JEE_MA_PHY_V01_C02_SLV_013_S01.png)
 
 
 ## 2-6 Graphical Integration in Motion Analysis (6 of 7)

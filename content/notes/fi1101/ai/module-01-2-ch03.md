@@ -18,4 +18,12 @@ Learning Objectives
 + 3.04 Given the components of a vector, draw the vector and determine its magnitude and orientation.
 + 3.05 Convert angle measures between degrees and radians.
 
-## 
+## 3-1 Vectors and Their Components (2 of 15)
++ Physics deals with quantities that have both size and direction
++ A vector is a mathematical object with size and direction
++ A vector quantity is a quantity that can be represented by a vector
+  - Examples: position, velocity, acceleration
+  - Vectors have their own rules for manipulation
++ A scalar is a quantity that does not have a direction
+  - Examples: time, temperature, energy, mass
+  - Scalars are manipulated with ordinary algebra
