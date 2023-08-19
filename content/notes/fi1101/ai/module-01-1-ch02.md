@@ -679,13 +679,19 @@ $$
 ## Summary (1 of 5)
 Average Velocity
 + $\displaystyle \frac{ {\rm Displacement  \ (vector)} }{ {\rm time} }$
-$$
+$$\tag{2-2}
 v_{\rm avg} = \frac{\Delta x}{\Delta t} = \frac{x_2 - x_1}{t_2 - t_1}
 $$
 
 Average speed
 + $\displaystyle \frac{ {\rm Distance \ traveled} }{ {\rm time} }$
 
-$$
+$$\tag{2-3}
 s_{\rm avg} = \frac{\rm total \ distance}{\Delta t}
 $$
+
+
+## Summary (3 of 5)
+Instantaneous Velocity
++ At a moment in time
++ Speed is its magnitude
