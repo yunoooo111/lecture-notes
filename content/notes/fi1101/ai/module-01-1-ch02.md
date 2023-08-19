@@ -1,5 +1,5 @@
 ---
-title: "motion along a straight line"
+title: "m01-1: motion along a straight line"
 date: 2023-08-17T21:49:00+07:00
 authors: ['Alexander Iskandar', 'Sparisoma Viridi']
 tags: ['fi1101']
@@ -94,6 +94,8 @@ direction at the same rate (no rotation or stretching)
   - Negative direction is opposite the positive
 
 > Gambar garis bilangan dilengkapi di bagian atas dengan panah arah ke kanan menggambarkan arah positif dan di bawahnya panah arah ke kiri menggambaarkan arah negatif, origin terletak di titik 0, satuan garis bilangan dalam m, $x \in [-3, 3]$.
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTewfCwtKfpld3sDMQI8PjRxZdPIZYHboerMlOJ1q4Unc9UWrIHu8goGEX8-Rsm-A5Zhw&usqp=CAU)
 
 Figure 2-1
 
@@ -695,3 +697,51 @@ $$
 Instantaneous Velocity
 + At a moment in time
 + Speed is its magnitude
+$$\tag{2-4}
+v = \lim_{\Delta t \to 0} \frac{\Delta x}{\Delta t} = \frac{dx}{dt}
+$$
+
+Average acceleration
++ Ratio of change in velocity to change in time
+
+$$\tag{2-7}
+a_{\rm avg} = \frac{v_2 - v_1}{t_2 - t_1} = \frac{\Delta v}{\Delta t}
+$$
+
+
+## Summary (4 of 5)
+Instantaneous acceleration
++ First derivative of velocity
++ Second derivative of position
+$$\tag{2-8}
+a = \frac{dv}{dt}
+$$
+
+
+## Summary (5 of 5)
+Constant acceleration
++ Includes free-fall, where $a = -g$ along the vertical axis
+
+Equation Number | Equation | Missing quantity
+:-: | :-: | :-:
+2-11 | $v = v_0 + at$ | $x - x_0$
+2-15 | $x - x_0 = v_0 t + \frac12 at^2$ | $v$
+2-16 | $v^2 = v_0^2 + 2a(x - x_0)$ | $t$
+2-17 | $x - x_0 = \frac12 (v_0 + v) t$ | $a$
+2-18 | $x - x_0 = vt - \frac12 at^2$ | $v_0$
+
+Table (2-1)
+
+
+## Copyright
+Copyright © 2018 John Wiley & Sons, Inc.
+
+All rights reserved. Reproduction or translation of this work beyond that permitted in Section 117 of the 1976 United States Act without the express written permission of the copyright owner is unlawful. Request for further information should be addressed to the Permissions Department, John Wiley & Sons, Inc. The purchaser may make back-up copies for his/her own use only and not for distribution or resale. The Publisher assumes no responsibility for errors, omissions, or damages, caused by the use of these programs or from the use of the information contained herein.
+
+
+## C. SECTION 117 COMPUTER PROGRAM EXEMPTIONS
+Section 117 of the Copyright Act of 1976 was enacted in the Computer Software Copyright Amendments of 1980 in response to the recommendations of the National Commission on New Technological Uses of Copyrighted Works' (CONTU). Section 117 permits the owner of a copy of a computer program to make an additional copy of the program for purely archival purposes if all archival copies are destroyed in the event that continued possession of the computer program should cease to be rightful, or where the making of such a copy is an essential step in the utilization of the computer program in conjunction with a machine and that it is used in no other manner.
+
+
+## Wiley
+url https://www.wiley.com/en-us/copyright
