@@ -635,3 +635,32 @@ To calculate the torso speed at $t = 0.110 \ {\rm s}$ (assuming an initial speed
 + Area $C = (0.010 \ {\rm s}) (50 \ {\rm m/s^2} = 0.5 \ {\rm m/s}$
 + Total area = $2.0 \ {\rm m/s}$.
 
+
+## 2-6 Graphical Integration in Motion Analysis (6 of 7)
+Example \
+A particle moves along the $x$-axis with varying velocity
+
+> Grafik $v \ ({\rm m \ s^{-1}}) - t \ ({\rm s})$, sumbu tegak (-10, 0, 10), sumbu mendatar (0, 2, 4, 6, 8), kurva: black (0, 10), (2, 0), (4, -10), (5, -10), (6, 0).
+
++ a. Determine the average acceleration between t = 0 s to t = 4 s.
++ b. Determine the instantaneous acceleration at t = 2 s and t = 4,5 s.
++ c. Give a graphical sketch of the acceleration with respect to time.
++ d. If at t = 0 s, the particle is at x = 2 m, determine its position at t = 6 s.
++ e. What is the distance traveled by the particle between t = 0 s and t = 6 s.
+
+
+## 2-6 Graphical Integration in Motion Analysis (7 of 7)
+Example \
+A particle moves along the $x$-axis and its position is given as a function of time by
+
+$$
+x(t) = (t^3 - 9t^2 + 24t) \ {\rm m}
+$$
+
++ a. Determine the velocity and acceleration of the particle as a function of time t.
++ b. Determine the values of t when the particle is at rest instantaneously.
++ c. Determine the acceleration at these values of t.
++ d. Determine the displacement of the particle between the time intervals 0 ≤ t ≤ 2 and 0 ≤ t ≤ 4
++ e. Determine the distance traveled by the particle between the time interval 0 ≤ t ≤ 4
+
+
