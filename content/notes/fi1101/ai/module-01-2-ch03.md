@@ -120,5 +120,3 @@ Figure (3-6)
 + Only vectors of the same kind can be added
   - (distance) + (distance) makes sense
   - (distance) + (velocity) does not
-
-
