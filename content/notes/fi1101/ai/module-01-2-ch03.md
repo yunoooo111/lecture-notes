@@ -120,3 +120,89 @@ Figure (3-6)
 + Only vectors of the same kind can be added
   - (distance) + (distance) makes sense
   - (distance) + (velocity) does not
+
+
+## 3-1 Vectors and Their Components (10 of 15)
+Checkpoint 1 \
+The magnitudes of displacements $\vec{a}$ and $\vec{b}$ are 3 m and 4 m, respectively, and $\vec{c} = \vec{a} + \vec{b}$. Considering various orientations of $\vec{a}$ and $\vec{b}$, what are (a) the maximum possible magnitude for
+$\vec{c}$ and (b) the minimum possible magnitude?
+
+Answer: \
+(a) 3 m + 4 m = 7 m \
+(b) 4 m − 3 m = 1 m
+
+
+## 3-1 Vectors and Their Components (11 of 15)
++ Rather than using a graphical method, vectors can be added by components o A component is the projection of a vector on an axis
+  - The process of finding components is called resolving the vector
++ The components of a vector can be positive or negative.
++ They are unchanged if the vector is shifted in any direction (but not rotated).
+
+> Gambar vector $\vec{b} = (7 \ \hat{x} - 5 \ \hat{y}) \ {\rm m}$, digambarkan komponen-komponennya $b_x$ pada arah $x$ dan $b_y$ pada arah $y$, "This is the $x$ component of the vector.", "This is the $y$ component of the vector.", kedua sumbu dengan satuan m, grid kotak berukuran 1 m &times; 1 m.
+
+Figure (3-8)
+
+
+## 3-1 Vectors and Their Components (12 of 15)
++ Components in two dimensions can be found by:
+$$\tag{3-5}
+a_x = a \cos \theta, \ \ \ \ {\rm and} \ \ \ \ a_y = a \sin \theta,
+$$
++ Where $θ$ is the angle the vector makes with the positive $x$ axis, and a is the vector length
++ The length and angle can also be found if the components
+are known
+$$\tag{3-6}
+a = \sqrt{a_x^2 + a_y^2} \ \ \ \ {\rm and} \ \ \ \ \tan \theta = \frac{a_y}{a_x}
+$$
++ Therefore, components fully define a vector
+
+
+## 3-1 Vectors and Their Components (13 of 15)
++ In the three-dimensional case we need more components to specify a vector
+  - $(a, \theta, \phi)$ or $(a_x, a_y, a_z)$
+
+
+## 3-1 Vectors and Their Components (14 of 15)
+Checkpoint 2 \
+In the figure, which of the indicated methods for combining the $x$ and $y$ components of vector aԦ are proper to determine that vector?
+
+> Gambar vektor-vektor selalu membentuk segitiga
+
+> (a) $a_x < 0$, $a_y < 0$, vektro $a$ SE. (ax, ay from origin)
+
+> (b) $a_x < 0$, $a_y < 0$, vektro $a$ NW. (ax, ay from origin)
+
+> (c) $a_x < 0$, $a_y < 0$, vektro $a$ SW. (left then down)
+
+> (d) $a_x < 0$, $a_y < 0$, vektro $a$ SW. (down then left)
+
+> (e) $a_x < 0$, $a_y < 0$, vektro $a$ NE. (left then down)
+
+> (e) $a_x < 0$, $a_y < 0$, vektro $a$ SW. (all from origin)
+
+Answer: choices (c), (d), and (f) show the components properly arranged to form the vector
+
+
+## 3-1 Vectors and Their Components (15 of 15)
++ Angles may be measured in degrees or radians
++ Recall that a full circle is 360 &deg;, or 2 $\pi$ rad
+$$
+40 \degree \ \frac{2\pi \ {\rm rad}}{360 \degree} = 0.70 \ {\rm rad}
+$$
++ Know the three basic trigonometric functions
+
+> Gambar segitiga sikus-siku tegak: Sudut di kaki kiri ($\theta$), bidang miring (Hypotenuse), alas (Leg adjacent to $\theta$), tinggi (Leg opposite $\theta$)
+
+> $$
+\sin \theta = \frac{\rm leg \ opposite \ \theta}{\rm hypotenuse}
+$$
+
+> $$
+\cos \theta = \frac{\rm leg \ adjacent \ \theta}{\rm hypotenuse}
+$$
+
+> $$
+\tan \theta = \frac{\rm leg \ opposite \ \theta}{\rm leg \ adjacent \ \theta}
+$$
+
+Figure (3-11)
