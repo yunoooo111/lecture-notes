@@ -92,3 +92,33 @@ $$ (associative law).
 > Gambar tengah: $\vec{a}$ kanan atas, $\vec{b}$ kanan bawah, keduanya bersatu dengan $\vec{a} + \vec{b}$, $\vec{c}$ ke kiri bawah, resultannya $\vec{a} + \vec{b} + \vec{c}$ ke kanan bawah, tegak ke atas $\vec{b} + \vec{c}$.
 
 > Gambar kanan: ke kanan atas $\vec{a} + \vec{b}$, ke kiri bawah $\vec{c}$, dan resultannya $(\vec{a} + \vec{b}) + \vec{c}$.
+
+
+## 3-1 Vectors and Their Components (8 of 15)
++ A negative sign reverses vector direction \
+  $$\vec{b} + (-\ve{b}) = 0.
++ We use this to define vector substraction
+$$\tag{3-4}
+\vec{d} = \vec{a} - \vec{b} = \vec{a} + (-\vec{b})
+$$
+
+> Gambar vector $\vec{b}$ dan $-\vec{b}$, sejajar tetapi berlawanan arahnya.
+
+Figure (3-5)
+
+> Gmabar (a) vektor $\vec{a}$ dan $\vec{b}$, $-\vec{b}$.
+
+> Gambar (b) vektor $\vec{a}$ dan $\vec{b}$, resultannya $\vec{d} = \vec{a} - \vec{b}$.
+
+> Note head-to-tail arrangement for addition (of $\vec{a}$ with $-\vec{b}$).
+
+Figure (3-6)
+
+
+## 3-1 Vectors and Their Components (9 of 15)
++ These rules hold for all vectors, whether they represent displacement, velocity, etc.
++ Only vectors of the same kind can be added
+  - (distance) + (distance) makes sense
+  - (distance) + (velocity) does not
+
+
