@@ -747,6 +747,19 @@ Equation Number | Equation | Missing quantity
 Table (2-1)
 
 
+## Assignment-01
++ Check your presense on SIX.
++ Create Medium account for this course.
++ Create GitHub account for this course.
++ Fork related GitHub repository to this course
+  - K04 https://github.com/dudung/fi1101-04-2023-1
+  - K09 https://github.com/dudung/fi1101-09-2023-1
++ Report the results in an issue of related GitHub repository
+  - K04 https://github.com/dudung/fi1101-04-2023-1/issues/1
+  - K09 https://github.com/dudung/fi1101-09-2023-1/issues/1
++ Report your username for Medium and GitHub, and link to forked repository to the issue and also in Edunex.
+
+
 ## Copyright
 Copyright © 2018 John Wiley & Sons, Inc.
 
