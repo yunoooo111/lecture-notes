@@ -23,3 +23,7 @@ Today is the first lecture in 9521 room, CAS building.
 
 {{< svg "img/nt6094/course_intro_2023_1.svg" >}}
 
++ Information about Edunex and GitHub for this course.
++ How to find intersection between mature fields, which could induce new field.
++ Hourglass structure in article and microstructure in abstract.
++ Computation and theoretical portion of a research, from ab-initio to empirical study.
