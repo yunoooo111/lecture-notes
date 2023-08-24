@@ -1,5 +1,5 @@
 ---
-title: "temperatur scale conversion"
+title: "temperatur conversion formula"
 date: 2023-08-24T18:52:00+07:00
 authors: ['Sparisoma Viridi']
 tags: ['fi4002']
