@@ -152,9 +152,11 @@ $3 \le x \le 4$ | $-6$ | $4$
 
 {{< mermaid align="left" >}}
 flowchart TD
-  B --> I --> P --> E
+  B --> I --> P1 --> P2 --> O --> E
   B(["Begin"])
-  I[/"{(xi, yi | i = 1 .. N}"/]
-  P["Process"]
+  I[/"{(xi, yi) | i = 1 .. N}"/]
+  P1["{c0} = f(x, y, N)"]
+  P2["{c1} = g(x, y, N)"]
+  O[/"{c0}, {c1}"/]
   E(["End"])
 {{< /mermaid >}}
