@@ -7,7 +7,7 @@ draft: false
 math: true
 url: "0023"
 ---
-Fungsi linier dapat dibuat untuk menghubungkan dua buah titik data terdekat sehingga titik-titik lain di antara kedua titik data diperoleh menggunakan fungsi tersebut.
+Fungsi linier yang dibuat untuk menghubungkan dua buah titik data terdekat akan menyediakan informasi sehingga titik-titik lain di antara kedua titik data tersebut dapat diperoleh menggunakan fungsi tersebut. Hal ini dengan asumsi bahwa hubungan antara variabel bebas dan terikatnya antara kedua titik data bersifat linier.
 
 
 ## range $0$ and $1$
@@ -92,8 +92,8 @@ y_1 = c_0 + c_1 x_1.
 $$
 
 Dari Persamaan (12) dan (13) akan diperoleh
-
 $$\tag{14}
+
 c_1 = \frac{y_1 - y_0}{x_1 - x_0}
 $$
 
@@ -102,3 +102,39 @@ dan
 $$\tag{15}
 c_0 = \tfrac12(y_0 + y_1) - \tfrac12 (x_0 + x_1) c_1.
 $$
+
+
+## range $x_{i}$ and $x_{i+1}$
+Dengan menggunakan persamaan-persamaan sebelumnya dapat dituliskan bentuk yang umum, bila terdapat data $(x_i, y_i)$ dan  $(x_{i+1}, y_{i+1})$, dapat diperoleh
+
+$$\tag{16}
+c_{1,i} = \frac{y_{i+1} - y_i}{x_{i+1} - x_i}
+$$
+
+dan
+
+$$\tag{16}
+c_{0,i} = \tfrac12(y_{i+1} + y_i) - \tfrac12 (x_{i+1} + x_i) c_{1,i},
+$$
+
+dengan fungsinya adalah
+
+$$\tag{17}
+f_i(x) = c_{0,i} + c_{1,i} x, \ \ \ \ x_i \le x \le x_{i+1}.
+$$
+
+Perhatikan bahwa bila terdapat $N$ titik data, maka hanya akan terdapat $N-1$ fungsi interpolasi linier sepert yang diberikan dalam Persamaan (17).
+
+
+## an example
+Sebagai contoh dapat dimisalkan terdapat titik-titik data sebagai berikut.
+
+Tabel 1. Titik data $(x_i, y_i)$, $i = 1, .., N$ dengan $N = 5$.
+
+$x$ | $y$
+:-: | :-:
+0 | 0
+1 | 1
+2 | 3
+4 | 6
+5 | 10
