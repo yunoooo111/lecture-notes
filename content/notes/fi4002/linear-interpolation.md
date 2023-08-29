@@ -131,10 +131,30 @@ Sebagai contoh dapat dimisalkan terdapat titik-titik data sebagai berikut.
 
 Tabel 1. Titik data $(x_i, y_i)$, $i = 1, .., N$ dengan $N = 5$.
 
-$x$ | $y$
-:-: | :-:
-0 | 0
-1 | 1
-2 | 3
-4 | 6
-5 | 10
+$i$ | $x$ | $y$
+:-: | :-: | :-:
+1 | 0 | 0
+2 | 1 | 1
+3 | 2 | 3
+4 | 3 | 6
+5 | 4 | 10
+
+Dengan menggunakan Persamaan (15) dan (16) dapat diperoleh nilai-nilai $c_1$ dan $c_0$ sebagai berikut.
+
+Tabel 2. Nilai-nilai $c_0$ dan $c_1$ untuk data pada Tabel 1.
+
+$x_i \le x \le x_{i+1}$ | $c_0$ | $c_1$
+:-: | :-: | :-:
+$0 \le x \le 1$ | $0$ | $1$
+$1 \le x \le 2$ | $-1$ | $2$
+$2 \le x \le 3$ | $-3$ | $3$
+$3 \le x \le 4$ | $-6$ | $4$
+
+{{< mermaid align="left" >}}
+flowchart TD
+  B --> I --> P --> E
+  B(["Begin"])
+  I[/"{(xi, yi | i = 1 .. N}"/]
+  P["Process"]
+  E(["End"])
+{{< /mermaid >}}
