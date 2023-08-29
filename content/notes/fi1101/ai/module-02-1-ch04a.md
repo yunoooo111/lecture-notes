@@ -7,7 +7,7 @@ draft: false
 math: true
 url: "0021"
 ---
-Copyright © 2018 John Wiley & Sons, Inc. and primarily advanced by Prof. A. Iskandar[.](https://drive.google.com/drive/folders/1Q3BrFUVQ5Sseneaz2XDNbN8ByFQO6U9u)
+Copyright © 2018 John Wiley & Sons, Inc. and primarily advanced by Prof. A. Iskandar[.](https://cdn-edunex.itb.ac.id/52883-Elementary-Physics-IA/190705-Gerak-dalam-2--dan-3-dimensi/1693271832783_Handout-FI1101-Module_02-1---ch04a.pdf)
 
 
 ## 4-1 Position and Displacement (1 of 4)
