@@ -32,5 +32,5 @@ There are slides for this course from previous semester.
 
 
 ## notes
-1. Course Introduction for Semester 2023 1 \
+1. Course Introduction for Semester 2023-1 \
   url https://dudung.github.io/lecture-notes/0017/
