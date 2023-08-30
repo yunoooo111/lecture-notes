@@ -247,6 +247,6 @@ Gambar 2. Hasil interpolasi linier untuk titik-titik data pada Tabel 1 yang terd
 Perhatikan bahwa terdapat titik-titik lain yang bukan merupakan titik-titik data pad Gambar 2. Titik-titik data digambarkan dengan lingkaran berukuran lebih besar, sedangkan titik-titik hasil interpolasi linier di antara  dua titik data berurutan digambarkan dengan lingkaran berukuran lebih kecil.
 
 
-## exercise
+## exercisea
 1. Perhatikan Gambar 1, tunjukkan bahwa interpolasi yang dihasilkan merupakan interpolasi linier pada setiap rentangnya. Setidaknya sampaikan argumen secara kualitatif dengan menggunakan gambar tersebut.
 2. Gunakan data lain untuk memeriksa apakah program yang diberikan tetap bekerja.
