@@ -121,4 +121,48 @@ which introduces an error. Notice that the index 4 for column is out of range si
 
 
 ## add and substract matrices
-A matrix can be added to other one, as well one can be substracted from the other.
+A matrix can be added to other one, as well one can be substracted from the other. To shorten the fomulation, since they are similar, both addition and subtraction will be explained at the same time. Suppose there is matrix $\mathbf{A}$, $\mathbf{B}$, and $\mathbf{C}$ in the relation of
+
+$$\tag{2}
+\mathbf{A} = \mathbf{B} \pm \mathbf{C},
+$$
+
+which can also written as their elements
+
+$$\tag{3}
+\left[
+\begin{matrix}
+a_{11} & \dots & a_{1n} \newline
+a_{21} & \dots & a_{2n} \newline
+a_{31} & \dots & a_{3n} \newline
+\vdots & \ddots & \vdots \newline
+a_{m1} & \dots & a_{mn}
+\end{matrix}
+\right] =
+\left[
+\begin{matrix}
+b_{11} & \dots & b_{1n} \newline
+b_{21} & \dots & b_{2n} \newline
+b_{31} & \dots & b_{3n} \newline
+\vdots & \ddots & \vdots \newline
+b_{m1} & \dots & b_{mn}
+\end{matrix}
+\right] \pm
+\left[
+\begin{matrix}
+c_{11} & \dots & c_{1n} \newline
+c_{21} & \dots & c_{2n} \newline
+c_{31} & \dots & c_{3n} \newline
+\vdots & \ddots & \vdots \newline
+c_{m1} & \dots & c_{mn}
+\end{matrix}
+\right]
+$$
+
+For each elements of the matrices, following relation
+
+$$\tag{4}
+a_{ij} = b_{ij} \pm c_{ij}
+$$
+
+can be obtained with $i = 1, .., m$ and $j = 1, .., n$.
