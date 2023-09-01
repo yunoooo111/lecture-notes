@@ -166,3 +166,23 @@ a_{ij} = b_{ij} \pm c_{ij}
 $$
 
 can be obtained with $i = 1, .., m$ and $j = 1, .., n$.
+
+
+## multiply scalar and matrix
+Multiplication between a scalar and a matric is commutative, which means that
+
+$$\tag{5}
+b \mathbf{C} = \mathbf{C} b.
+$$
+
+Suppose the Multiplication result is stored in matrix $\mathbf{B}$, then
+
+$$\tag{6}
+\mathbf{A} = b \mathbf{C}
+$$
+
+and with their elements
+
+$$\tag{7}
+\dots
+$$
