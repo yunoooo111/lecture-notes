@@ -69,3 +69,21 @@ url: "0028"
 + In simple words, a URI can be a URN or a URL because both are subtypes of URI ([Miessler, 2005](https://danielmiessler.com/p/difference-between-uri-url/)).
 + URI is a string of characters used to identify or name a resource, which can include URLs, URNs, or other forms, where for URN the scheme is always `urn` and  it is used uniquely identify a resource without specifying its location, providing a persistent and globally unique name for the resource and the name remains valid even its data is moved to another location ([Smolchenko, 2023](https://levelup.gitconnected.com/understanding-the-differences-between-url-uri-and-urn-bd540dbde9d)).
 + Attribute `href` of `<a>` element can have value of a URL for other web document or URI fragment, the `#`, for section in the same the document ([Juviler, 2021](https://blog.hubspot.com/website/html-a-href)).
+
+
+## href attribute and content
++ In an anchor element there are begin tag, attribute, content, and end tag.
+  - begin tag `<a>`.
+  - end tag `</a>`.
+  - content is placed between begin and end tags.
+  - attribute, e.g. `href="url"` is placed between `a` and `>` in begin tag.
++ Example of an anchor element
+  ```html
+  <a href="https://github.com/">GitHub</a>
+  ```
+  which produces result
+  
+  > [GitHub](https://github.com/)
+  
+  as in [OneCompiler/3zkguv5zc](https://onecompiler.com/html/3zkguv5zc).
++ Notice that the content or displayed text can be different than the actual the value of `href` attribute, which is the flexibility of anchor element.
