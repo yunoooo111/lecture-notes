@@ -184,5 +184,30 @@ $$
 and with their elements
 
 $$\tag{7}
-\dots
+\left[
+\begin{matrix}
+a_{11} & a_{12} & \dots & a_{1n} \newline
+a_{21} & a_{22} & \dots & a_{2n} \newline
+a_{31} & a_{32}  & \dots & a_{3n} \newline
+\vdots & \vdots & \ddots & \vdots \newline
+a_{m1} & a_{m2}  & \dots & a_{mn}
+\end{matrix}
+\right] = b
+\left[
+\begin{matrix}
+c_{11} & c_{12}  & \dots & c_{1n} \newline
+c_{21} & c_{22}  & \dots & c_{2n} \newline
+c_{31} & c_{32}  & \dots & c_{3n} \newline
+\vdots & \vdots & \ddots & \vdots \newline
+c_{m1} & c_{m2}  & \dots & c_{mn}
+\end{matrix}
+\right],
 $$
+
+which gives
+
+$$\tag{5}
+a_{ij} = b \ c_{ij}
+$$
+
+for each elements for the matrices.
