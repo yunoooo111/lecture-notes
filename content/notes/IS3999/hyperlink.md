@@ -7,7 +7,12 @@ draft: false
 math: true
 url: "0028"
 ---
-..
+[1](#1-hyperlink) &bull;
+[2](#2-html-tags) &bull;
+[3](#3-html-elements-and-tags) &bull;
+[4](#4-example-of-tag-and-element) &bull;
+[5](#5-element-tag-attribute-content) &bull;
+[6](#6-url-uri-urn)
 
 
 ## 1 hyperlink
@@ -65,7 +70,7 @@ url: "0028"
 + The last attribute changes the font color from black, as default color, to blue.
 
 
-## url, uri, urn
+## 6 url, uri, urn
 + While most developers know what a URL is, not everyone knows what a URI is, and even less knows about URNs, well not to mention that the relationships between theses terms is not always very clear ([Chiarelli, 2022](https://auth0.com/blog/url-uri-urn-differences/)).
 + In simple words, a URI can be a URN or a URL because both are subtypes of URI ([Miessler, 2005](https://danielmiessler.com/p/difference-between-uri-url/)).
 + URI is a string of characters used to identify or name a resource, which can include URLs, URNs, or other forms, where for URN the scheme is always `urn` and  it is used uniquely identify a resource without specifying its location, providing a persistent and globally unique name for the resource and the name remains valid even its data is moved to another location ([Smolchenko, 2023](https://levelup.gitconnected.com/understanding-the-differences-between-url-uri-and-urn-bd540dbde9d)).
