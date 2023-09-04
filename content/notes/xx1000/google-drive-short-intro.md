@@ -42,3 +42,4 @@ url: "0029"
 ## web apps used (most) daily
 + Linkedln, Evernote, Gmail, Google Calendar, Facebook Messanger, Google Workspace (Docs, Sheets, Slides), Google Maps, Amazon Prime Video, Instagram, Pocket (Read-it-later app), Trello, Dropbox are 12 examples of web apps ([Sambells, 2023](https://hiyield.co.uk/insights/12-examples-of-web-apps-that-you-use-everyday/)).
 + Google Workspace offers various types of drive, where Google Drive is one of them ([Valiant, 2021](https://thevaliantway.com/kb/difference-between-google-workspace-drives/))
++ Google Workspace includes all the productivity apps, such as Gmail, Calendar, Drive, Docs, Sheets, Slides, Meet, and many more, which make it the best way to create, communicate, and collaborate ([Soltero, 2020](https://workspace.google.com/blog/product-announcements/introducing-google-workspace?hl=en)).
