@@ -7,7 +7,7 @@ draft: false
 math: true
 url: "0029"
 ---
-
+{{< toc >}}
 
 ## google drive
 + It is an online strorage solution launched by Google in April 2012, which is primarily used for file storage and backup, but it is also a popular tool for project collaboration by bussinesses, schools, and individuals ([Stephenson, 2021](https://www.lifewire.com/google-drive-4165788)).
@@ -25,3 +25,20 @@ url: "0029"
 + As it is published Google Drive has already some pros and cons ([Paul, 2012](https://www.pcworld.com/article/470220/google_drive_the_pros_and_cons.html)), but it is going better since it is still evolving.
 + File access anywhere and anytime, instant access to edit files, compatibility with various devices, files quick search, simplicity in shring files, comment feature for discussion, some free storage space, best user interface, file management and organization, files backup, optical character recognition, and secured files can be considered as pros of Google Drive ([Sahoo, 2022](https://docstips.com/pros-and-cons-of-google-drive/)).
 + Security risks, internet connection requirement, dailty upload limit, file size limits, downloading and uploading speed, and Google browsing content saved in Google Drive can be considered as cons of it ([Weis, 2021](https://cloudmounter.net/what-is-google-drive-guide/advantages-and-disadvantages-of-google-drive/)).
+
+
+## be aware of
++ Removed shared folders or files reappearance might be a loophole of Google Drive leading to unintended or intended harassment ([Notopoulos, 2019](https://www.buzzfeednews.com/article/katienotopoulos/google-drive-harassment-remove-shared)).
++ Automatic rendering of Google Docs to HTML code could mislead users to custon HTML designed as Google Docs, and make users click to download the document and they will be redirected to malicious pishing website, where their credentials will be stolen through Google login portal-like webpage ([Sjouwerman, 2023](https://blog.knowbe4.com/attackers-abuse-google-docs-for-phishing-attacks)).
++ RAR, ZIP, and JAR files containing Malware stored in Google Drive are used to enter goverment, research, and academic institution network as performed by Chinese hackers ([Balaji, 2022](https://cybersecuritynews.com/chinese-hackers-abuse-google-drive-to-drop-malware-on-govt-networks/)).
+
+
+## prohibited content
++ All Google services prohibit you from uploading files related to following but not limited types of content, such as child sexual abuse, unathorized images of minar, illegal activities, bullying & threats, content violent & bloody, identity theft & pishing, malware & viruses, personal & confidential information, and spam ([Bakker, 2022](https://crast.net/7789/prohibited-content-on-google-drive-what-you-cant-upload-to-your-cloud/)).
++ There are illegal file sharing services using Google Drive, Dropbox, and MEGA ([Morse, 2017](https://mashable.com/article/google-drive-piracy-torrenting-files)), which include audios, videos, ebooks, softwares, and others, that violate the Digital Millennium Copyright Act or DMCA.
++ Google sets a new policy that it will restrict access files violating its policies and prevent them from being shared in the process, where owner will still have full acess, but sharing privileges will be revoked, even if someone already has a link ([Pritchard, 2021](https://www.tomsguide.com/news/new-google-drive-policy-could-restrict-access-to-your-files-what-you-need-to-know)).
+
+
+## web apps used (most) daily
++ Linkedln, Evernote, Gmail, Google Calendar, Facebook Messanger, Google Workspace (Docs, Sheets, Slides), Google Maps, Amazon Prime Video, Instagram, Pocket (Read-it-later app), Trello, Dropbox are 12 examples of web apps ([Sambells, 2023](https://hiyield.co.uk/insights/12-examples-of-web-apps-that-you-use-everyday/)).
++ Google Workspace offers various types of drive, where Google Drive is one of them ([Valiant, 2021](https://thevaliantway.com/kb/difference-between-google-workspace-drives/))
