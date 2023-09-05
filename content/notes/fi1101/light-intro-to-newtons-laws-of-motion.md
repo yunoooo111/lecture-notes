@@ -40,3 +40,12 @@ Newton's laws of motion are three basic laws of classical mechanics that describ
 ## out of the box
 + [Fisika dasar dan nila-nilai yang diajarkannya](https://www.slideshare.net/sparisoma/fisika-dasar-dan-nilainilai-yang-diajarkannya) &bull; [video](https://www.youtube.com/watch?v=5LqdW-TIhKs)
 + [Belajar kinematika dan dinamika berbantuan JavaScript](https://doi.org/10.5281/zenodo.1158774)
+
+
+## further exploration
++ [Newton's Laws of Motion](https://www.livescience.com/46558-laws-of-motion.html)
++ [Newton's Laws and the causes of motion](http://hyperphysics.phy-astr.gsu.edu/hbase/Newt.html)
++ [Inclined Plane with Friction, Two Masses, and a Pulley](https://www.geogebra.org/m/GWDsGuJt#material/yaWq4Mza)
++ [Newton's Second Law of Motion](https://www.geogebra.org/m/mscrpzvm)
++ [Forces and Motion: Basics](https://phet.colorado.edu/en/simulations/forces-and-motion-basics)
++ [Simulation to move box and its velocity graph](https://www.physicsclassroom.com/Physics-Interactives/Newtons-Laws/Force/Force-Interactive)
