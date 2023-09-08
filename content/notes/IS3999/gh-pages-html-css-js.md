@@ -41,8 +41,37 @@ url: "0036"
 
 
 ## svg
-+ [Simple animation with SVG](https://medium.com/@6unpnp/simple-animation-with-svg-5ba41838083a)
+Scalable Vector Graphics (SVG) is an XML-based markup language for describing two-dimensional based vector graphics ([mozz://a, 2023](https://developer.mozilla.org/en-US/docs/Web/SVG), 2023).
+
+### review
++ [Simple animation with SVG (a very short review)](https://medium.com/@6unpnp/simple-animation-with-svg-5ba41838083a)
+
+
+### validation
+Minimal content of a SVG file is as follow
+
+```svg
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<svg version="1.1"
+ width="300" height="200"
+ xmlns="http://www.w3.org/2000/svg">
+
+</svg>
+```
+Check it on [online](https://validator.w3.org/#validate_by_input)
+
+> This document was successfully checked as XML!
+
+> Result:	Passed, 1 warning(s)
+
+ or by [uploding file](https://validator.w3.org/#validate_by_upload).
+
+> This document was successfully checked as SVG 1.1 + URL + HTML + MathML 3.0!
+
+
+### animation
 + [Cirlce](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/circle)
++ [Shape animation in an SVG image](https://jenkov.com/tutorials/svg/svg-animation.html)
 + [Path commands](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d#path_commands)
 + [&lt;animateMotion&gt;](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion)
 
