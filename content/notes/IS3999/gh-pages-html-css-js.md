@@ -40,6 +40,12 @@ url: "0036"
 + [My first web server](https://medium.com/@6unpnp/my-first-web-server-b8e532c1d0fa)
 
 
+## deployments
++ [an example on GitHub](https://dudung.github.io/hello-website/) &bull; [src](https://github.com/dudung/hello-website)
++ [bugx, with Hugo on GitHub](https://dudung.github.io/bugx/) &bull; [html](https://github.com/dudung/bugx) &bull; [src](https://github.com/dudung/bugx-hugo-src)
++ [bugx, an example on Vercel](https://bugx.vercel.app/)
+
+
 ## svg
 Scalable Vector Graphics (SVG) is an XML-based markup language for describing two-dimensional based vector graphics ([mozz://a, 2023](https://developer.mozilla.org/en-US/docs/Web/SVG), 2023).
 
