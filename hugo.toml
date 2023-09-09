@@ -1,7 +1,7 @@
 baseURL = 'https://dudung.github.io/lecture-notes'
 languageCode = 'en-us'
 title = 'lecture-notes'
-theme = 'hugo-coder'
+theme = ['hugo-chart', 'hugo-coder']
 
 defaultContentLanguage = "en"
 paginate = 20
