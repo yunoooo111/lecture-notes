@@ -14,6 +14,7 @@ url: "0037"
 + Shortcodes are add short snippets of Hugo code, Markdown, or HTML to a page ([Chef, 2023](https://docs.chef.io/style/shortcodes/)).
 + Shortcodes are simple snippets inside the content files calling built-in or custom templates ([Lahoti, 2020](https://codingnconcepts.com/hugo/custom-shortcode-hugo/)).
 + A Hugo shortcode is a chunk of Go Template code that can be used within a Hugo content file ([Ink, 2023](https://www.ii.com/hugo-shortcodes/#_what_is_a_hugo_shortcode)).
++ Shortcodes can with or without Markdown ([Modi, 2023](https://ox-hugo.scripter.co/test/posts/source-block-md-with-hugo-shortcodes/)].
 
 
 ## partials
@@ -32,3 +33,30 @@ url: "0037"
 + The `<button>` HTML element is an interactive element activated by a user with a mouse, keyboard, finger, voice command, or other assistive technology, and then be used in submitting form or opening dialog ([Mozilla, 2023](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button))
 + The type attribute in any button tags can have value of `button`, `reset`, or `submit`, where any has different function ([Kyrnin, 2020](https://www.thoughtco.com/input-type-button-3468604)).
 + Instead of using `<button>` tag, a clickable button can also be displayed using `<input>` tag and set its type attribute value to `button`.
+
+
+
+## code
++ A button can be display using HTML as follow
+  ```html
+  <button type="button">Button caption</button>
+  ```
++ To accept a parameter previous snippet will be modified to
+  ```html
+  <button type="button">{{ index .Params 0 }}</button>
+  ```
+  and saved to `layouts/shortcodes/button.html`.
++ And it is used as
+  ```md
+  {{</* button "A button to click" */>}}
+  ```
+
+## result
++ It simply shows a button with given caption \
+  \
+  {{< button "A button to click" >}}
+
+
+## to-do
++ Create v2 of button shortcode that accepts style.
++ Add JavaScript to handle the onclick event.
