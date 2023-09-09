@@ -1,4 +1,11 @@
-<script src="../assets/js/numpad.js" />
+<!--
+url https://discourse.gohugo.io/t/js-file-cant-be-found-404-when-in-assets-js/25274
+-->
+
+{{ $js := resources.Get "js/numpad.js" }}
+{{ $file := $js | resources.Minify  }}
+{{ $url := $file.Permalink | relURL }}
+<script type="text/javascript" src="{{ $url }}"></script>
 
 <script>
 hello();
