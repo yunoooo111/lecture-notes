@@ -25,3 +25,7 @@ url: "0041"
 1. Air Indomaret \
   Pantai Pandawa \
   url https://maps.app.goo.gl/iCEzRns3TKcx4QoF8
+
+## notes
++ Category is only temporary and subject to change.
++ It would be related to independent study-like course or something.
