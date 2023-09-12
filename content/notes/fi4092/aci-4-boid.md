@@ -121,6 +121,34 @@ $$
 \vec{p}_i (t + \Delta t) = \vec{p}_i (t) + \vec{v}_i(t + \Delta t).
 $$
 
+### aci
++ Interaction matrix, e.g 4 boids
+$$
+M = \left[
+\begin{matrix}
+0 & 1 & 1 & 0 & 0 \newline
+1 & 0 & 0 & 1 & 0 \newline
+1 & 0 & 0 & 0 & 1 \newline
+0 & 1 & 0 & 0 & 0 \newline
+0 & 0 & 1 & 0 & 0
+\end{matrix}
+\right]
+$$
++ Matrix element
+  - $m_{ij} = 1 - \delta_{ij}$ or
+$$
+m_{ij} = \left\\{
+\begin{matrix}
+0, & i = j, \newline
+1, & i \ne j
+\end{matrix}
+\right.
+$$
+  - $m_{ij} = m_{ji}$
++ Alignment clustering index
+$$
+\alpha_t = \frac{\frac12 {\rm Tr}(M_t^2)}{\frac12 N(N-1)}
+$$
 
 ## results
 
@@ -129,7 +157,7 @@ $$
 + alignment
 + separation
 + containment
-+ total = 100
++ (wander)
 
 ### 70-10-10-00 (cohesion dominant)
 {{< youtube "FvfnnNrS1Ic" >}}
@@ -145,3 +173,29 @@ $$
 
 ### aci
 {{< svg "img/fi4092/aci_time.svg" >}}
+
+### aci-acsc
+{{< svg "img/fi4092/aci_casc.svg" >}}
+
+Force | 1 | 2 | 3 | 4 | 5 | 6 | 7
+:- | :-: | :-: | :-: | :-: | :-: | :-: | :-:
+Alignment   | 10 | 20 | 30 | 40 | 50 | 60 | 70
+Cohesion    | 70 | 60 | 50 | 40 | 30 | 20 | 10
+Separation  | 10 | 10 | 10 | 10 | 10 | 10 | 10
+Containment | 10 | 10 | 10 | 10 | 10 | 10 | 10
+
+### aci-acscw
+{{< svg "img/fi4092/aci_cascw.svg" >}}
+
+Force | 1 | 2 | 3 | 4 | 5 | 6
+:- | :-: | :-: | :-: | :-: | :-: | :-:
+Alignment   | 10 | 20 | 30 | 40 | 50 | 60
+Cohesion    | 60 | 50 | 40 | 30 | 20 | 10
+Separation  | 10 | 10 | 10 | 10 | 10 | 10
+Containment | 10 | 10 | 10 | 10 | 10 | 10
+Wander      | 10 | 10 | 10 | 10 | 10 | 10
+
+## conclusion
++ ACI is increasing as alignment increasing with other besides cohesion is held constant.
++ Addition of wander will introduce saturated ACI.
++ ACI can show the merge of two or more clusters of boids.
