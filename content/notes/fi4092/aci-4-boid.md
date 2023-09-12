@@ -12,6 +12,9 @@ url: "0043"
 
 ## cohesion
 {{< svg "img/fi4092/rule_cohesion.svg" >}}
+{{< center >}}
+([Rusinkiewicz, 2011](https://www.cs.princeton.edu/courses/archive/spr11/cos426/notes/cos426_s11_lecture21_boids.pdf))
+{{< /center >}}
 
 
 ## aligment
