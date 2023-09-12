@@ -278,11 +278,12 @@ A HTML file can be supported by CSS and JS.
 + Can an element be styled using only style attribute? Show how to do that in an simple example, e.g. makes words in a paragraph right justified and having green color.
 + Explain what is the benefit in using CSS instead of styling every component manually?
 + What is then the flexibilities obtained when using external CSS?
-+ What would be the feature JS add in styling components?
++ What would be the features JS add in styling components?
 + Compare the advantanges between the use of internal and external JS for an HTML file?
 + Give the structure of an HTML file containing support from external CSS and JS.
 
 
 ## notes
-+ Session 1000-1200.
-+ Zoom [83076605015](https://us06web.zoom.us/j/83076605015)
++ Session 1045-1200.
++ Zoom [83135105424](https://us06web.zoom.us/j/83135105424).
++ Google Form [rmk4T5UN3yAWJnSK9](https://forms.gle/rmk4T5UN3yAWJnSK9).
