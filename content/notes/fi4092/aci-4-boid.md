@@ -95,7 +95,8 @@ $$
 {{< center >}}
 ([Xiang et al., 2021](https://www.researchgate.net/publication/354848692))
 {{< /center >}}
-+ It is chosen that $1 {\rm BL} \approx {\rm 16px}$.
++ It is chosen that $1 {\rm unit \ length} \ {\rm or} \ {\rm BL} \approx {\rm 16px}$.
+
 
 ### parameters
 + For cohesion $d_{\rm min} = 3 \ {\rm BL}$.
@@ -123,4 +124,24 @@ $$
 
 ## results
 
-### ..
+### coefficients
++ cohesion
++ alignment
++ separation
++ containment
++ total = 100
+
+### 70-10-10-00 (cohesion dominant)
+{{< youtube "FvfnnNrS1Ic" >}}
+
+### 10-70-10-00 (alignment dominant)
+{{< youtube "jOuLU145rKI" >}}
+
+### 10-10-70-00 (separation dominant)
+{{< youtube "V81RFPimhUg" >}}
+
+### 10-10-10-70 (containment dominant)
+{{< youtube "27UWg0wAQkU" >}}
+
+### aci
+{{< svg "img/fi4092/aci_time.svg" >}}
