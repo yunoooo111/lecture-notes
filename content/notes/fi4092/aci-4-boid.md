@@ -11,9 +11,14 @@ url: "0043"
 
 ## introduction
 
+### boids
++ Boid stands for bird-oid object, signifying how it has been used to realistically represent flocks of birds or schools of fish without any special intelligence and easily translatable, standardized behaviours ([Vishwajith, 2021](https://medium.com/fragmentblog/simulating-flocking-with-the-boids-algorithm-92aef51b9e00)).
++ Boid simulation is the simulation of the behaviour of creatures while moving in groups, where this movement pattern can be found in the school of fish, the flock of birds.  ([Shrestha, 2021](2021)).
++ One application of the ideas involved in Boids and other swarm intelligence simulations is in the field of "swarm robotics", where a key component in these systems is communication between individual robots in order to ensure that each is devoted to an appropriate task at hand ([Wong, 2008](https://cs.stanford.edu/people/eroberts/courses/soco/projects/2008-09/modeling-natural-systems/boids.html)).
+
 ### terminology
 Some terminology ([Pemmaraju, 2013](https://code.tutsplus.com/3-simple-rules-of-flocking-behaviors-alignment-cohesion-and-separation--gamedev-3444t))
-+ **Agent**: A single entity or character.
++ **Agent**: A single entity or character, which is the boid.
 + **Velocity vector**: An agent's current velocity.
 + **Neighborhood**: A certain area around the agent, used to look for other agents.
 + **Resultant**: The vector obtained from the calculations of the rule.
