@@ -61,7 +61,7 @@ A HTML file can be supported by CSS and JS.
   <head>
   <title>HTML only</title>
 
-  <style style="text/css">
+  <style type="text/css">
   ..
   </style>
 
@@ -269,7 +269,7 @@ A HTML file can be supported by CSS and JS.
   ```
 + Example is available at
   - https://dudung.github.io/hello-website/html-css-js/05.html,
-  - https://dudung.github.io/hello-website/html-css-js/04.js,
+  - https://dudung.github.io/hello-website/html-css-js/05.js,
   - https://dudung.github.io/hello-website/html-css-js/02.css.
 + Use CTRL+U to view the source.
 
