@@ -242,7 +242,6 @@ A HTML file can be supported by CSS and JS.
   
   </head>
 
-
   <body>
 
   <h1>Introduction</h1>
