@@ -1,6 +1,6 @@
 ---
-title: "aligment clustering index for boid"
-date: 2023-09-12T13:38:00+07:00
+title: "alignment clustering index for boid"
+date: 2023-09-13T07:40:00+08:00
 authors: ['Faiz Aulia Rahman', 'Utriweni Mukhaiyar', 'Sparisoma Viridi']
 tags: ['fi4092']
 draft: false
@@ -204,3 +204,13 @@ Wander      | 10 | 10 | 10 | 10 | 10 | 10
 + ACI is increasing as alignment increasing with other besides cohesion is held constant.
 + Addition of wander will introduce saturated ACI.
 + ACI can show the merge of two or more clusters of boids.
+
+
+## notes
++ Day: 2 / 13 Sep 2023
++ Time: 14.40 - 14.50
++ Room: Balangan Room
++ Topic/scope: Fisheries - sustainable fisheries management, EAFM, IUU fishing
++ Code: ICM112
++ Title of Paper: Weight Parameter and Alignment Clustering Index Analysis in Boid Simulation: A Study of Multiple Fish Species &rightarrow; Analysis of Boid Algorithm Weights using Alignment Clustering Index
++ Presenter: Sparisoma Viridi
