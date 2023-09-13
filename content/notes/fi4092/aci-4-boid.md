@@ -288,5 +288,5 @@ Wander      | 10 | 10 | 10 | 10 | 10 | 10
 + Room: Balangan Room
 + Topic/scope: Fisheries - sustainable fisheries management, EAFM, IUU fishing
 + Code: ICM112
-+ Title of Paper: Weight Parameter and Alignment Clustering Index Analysis in Boid Simulation: A Study of Multiple Fish Species &rightarrow; Analysis of Boid Algorithm Weights using Alignment Clustering Index
++ Title of Paper: Weight Parameter and Alignment Clustering Index Analysis in Boid Simulation: A Study of Multiple Fish Species &rightarrow; Analysis of Boid Algorithm Weights using Alignment Clustering Index &rightarrow; Alignment Clustering Index for Boid.
 + Presenter: Sparisoma Viridi
