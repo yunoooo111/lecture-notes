@@ -278,7 +278,8 @@ Wander      | 10 | 10 | 10 | 10 | 10 | 10
 
 
 ### future plan
-+ Investigate further variation of weights and relate it to ACI or other indices in characterizing motion patterns of boids.
++ Investigate further variation of weights and relate them to ACI or other indices in characterizing motion patterns of boids.
++ Modify existing indices or propose new ones to obtain more suitable paremeters for boid behaviours.
 
 
 ## notes
