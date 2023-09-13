@@ -9,6 +9,11 @@ url: "0041"
 ---
 {{< toc >}}
 
+## 13-sep
+5. Air Prim-A Diamod Hills \
+  Pantai Kuta \
+  url https://maps.app.goo.gl/15Vk8yLzJExE484j8
+
 
 ## 11-sep
 2. Teh Botol \
@@ -21,10 +26,12 @@ url: "0041"
   Pelabuhan Buyuk \
   url https://maps.app.goo.gl/4XuzYF1YHgMU4PV8A
 
+
 ## 10-sep
 1. Air Indomaret \
   Pantai Pandawa \
   url https://maps.app.goo.gl/iCEzRns3TKcx4QoF8
+
 
 ## notes
 + Category is only temporary and subject to change.
