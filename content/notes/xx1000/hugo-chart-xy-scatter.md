@@ -1,6 +1,6 @@
 ---
 title: "hugo-chart xy scatter"
-date: 2023-09-13T05:44:00+08:00
+date: 2023-09-14T30:39:00+08:00
 authors: ['Sparisoma Viridi']
 tags: ['xx1000']
 draft: false
