@@ -36,10 +36,40 @@ print("Done.")
 + Translate content to SVG elements, the simple first, e.g. line, circle and rectangle.
 
 
-## test 1
+## test
+Following is a SVG image whose border is added using JS
+
 {{< shape >}}
-<svg height="100" width="100">
-  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+<svg id="fig1" height="100" width="100">
+  <circle cx="50" cy="50" r="40"
+   stroke="black" stroke-width="3" fill="red" />
   Sorry, your browser does not support inline SVG.  
 </svg>
+
+<script>
+console.log("hello");
+var g = document.getElementById("fig1");
+g.style.border = "1px solid blue";
+</script>
 {{< /shape >}}
+
+with the lines of code are
+
+```md
+{{</* shape */>}}
+<svg id="fig1" height="100" width="100">
+  <circle cx="50" cy="50" r="40"
+   stroke="black" stroke-width="3" fill="red" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+
+<script>
+console.log("hello");
+var g = document.getElementById("fig1");
+g.style.border = "1px solid blue";
+</script>
+{{</* /shape */>}}
+```
+
+## possible problem
++ Security due if using external JS with some uknown purposes, besides what are required. 
