@@ -12,3 +12,9 @@ url: "0045"
 ## links
 + [alignment clustering index for boid](../0043)
 + [butiran.js, a simple JS-based simulator for agent-based model](https://medium.com/@6unpnp/butiran-js-a-simple-js-based-simulator-for-agent-based-model-cba0e3f597ed)
+
+
+## blackboard
+{{< svg "img/fi4002/abm_boid_0.svg" >}}
+
+{{< svg "img/fi4002/abm_boid_1.svg" >}}
