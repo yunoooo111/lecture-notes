@@ -1,4 +1,4 @@
-baseURL = 'https://dudung.rrkurnova.io/lecture-notes'
+baseURL = 'https://yunoooo111.io/lecture-notes'
 languageCode = 'en-us'
 title = 'lecture-notes'
 theme = ['hugo-chart', 'hugo-coder']
@@ -13,9 +13,9 @@ enableEmoji = true
 #disqusShortname = "dudung-github-io-blog"
 
 [params]
-author = "Raro Kurnova"
+author = "Yurnero Nolla"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "Raro Kurnova's personal website"
+description = "Yurnero Nolla's personal website"
 keywords = "blog,developer,personal"
 info = ["Programmer", "Web Designer"]
 
