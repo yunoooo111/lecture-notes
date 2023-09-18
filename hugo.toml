@@ -116,7 +116,7 @@ author = "authors"
 name = "Github"
 icon = "fa fa-2x fa-github"
 weight = 0
-url = "https://github.com/rrkurnova/"
+url = "https://github.com/yunoooo111/"
 
 #[[params.social]]
 #name = "Flickr"
@@ -146,13 +146,13 @@ url = "https://github.com/rrkurnova/"
 name = "Medium"
 icon = "fa fa-2x fa-medium"
 weight = 5
-url = "https://medium.com/@rrkurnova"
+url = "https://medium.com/@yurneronolla"
 
-#[[params.social]]
-#name = "Instagram"
-#icon = "fa fa-2x fa-instagram"
-#weight = 6
-#url = "https://www.instagram.com/6unpnp"
+[[params.social]]
+name = "Instagram"
+icon = "fa fa-2x fa-instagram"
+weight = 6
+url = "https://www.instagram.com/yudhamatias"
 
 #[[params.social]]
 #name = "Tumblr"
