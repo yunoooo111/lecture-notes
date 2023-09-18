@@ -19,7 +19,7 @@ description = "Yurnero Nolla's personal website"
 keywords = "blog,developer,personal"
 info = ["Programmer", "Web Designer"]
 
-avatarURL = "img/avatar.svg"
+avatarURL = "img/avatar1.svg"
 
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
