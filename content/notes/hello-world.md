@@ -29,7 +29,7 @@ $$
 y = ax^2 + bx + c
 $$
 
-## Quote
+## Quotee
 <!-- italics -->
 *This text* is italic
 
@@ -40,6 +40,21 @@ _This text_ is italic
 
 __This text__ is italic
 
+<!-- Strikethrought -->
+~~ This Text ~~ is Strikethrought
+
+<!-- Horizontal Rule -->
+---
+___
+
+<!-- BlockQuote -->
+> This is a Quote
+
+<!-- Inline Code Block -->
+'<p>This is a paragraph</p>'
+
+## IMAGES
+![Markdown Logo](C:/Users/USER/Downloads/psps.png)
 
 
 ## Link
@@ -47,14 +62,23 @@ __This text__ is italic
 + [Github](https://github.com/)
 
 ##List
-+ Satu
-	- dua
-	- tiga
++ Provinsi
+	- Kabupaten/Kota
+	- Kecamatan
+	- Kelurahan/Desa
 	
-+ A
-	- b
-	- c
-	
++ Badan Intelijen Negara
+	- Deputi 1
+	- Deputi 2
+	- Deputi 3
+
+## table
+No | Tanggal | Kegiatan | Info
+:-: | :- | -:| :-: 
+1 | 18 Sept | Senin | **UPACARA**
+2 | 19 Sept | Selasa | $\sqrt{x^2}{y^2}$
+3 | 20 Sept | Rabu | [Instagram](https://instagram.com/yudhamatias/)
+4 | 21 Sept | Kamis | *Slebew KIWKIW*
 	
 
 
