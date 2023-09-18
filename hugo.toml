@@ -1,4 +1,4 @@
-baseURL = 'https://yunoooo111.rrkurnova.io/lecture-notes'
+baseURL = 'https://yunoooo111.github.io/lecture-notes'
 languageCode = 'en-us'
 title = 'lecture-notes'
 theme = ['hugo-chart', 'hugo-coder']
